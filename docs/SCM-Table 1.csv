@@ -1,0 +1,161 @@
+Question,Integral Response,Control Observations/Comments,Attachment(s),Additional Control Observations,Assessor Observations,Observation Type,Question Requirement,Additional Comments,Attachment(s),Updated observation,Updated Assessor Comments,,,,,,,,,,,,,,
+"SCM001: Does your company use standard security (hardening) configurations on operating systems, applications, laptops, desktops, and virtual machines? 
+
+If yes, please attach.
+Artifact Required: Hardening Standards/Documentation",Not Applicable,Integral hosts its application in its own data centre.,,"Integral Development Corporation does use standard security (hardening) configurations on operating systems, applications, laptops, desktops, and virtual machines.
+
+Validated through inquiry, that Integral has a formal hardening process but Integral did not provide evidence to validate the control.
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inquiry with Seeja Jiju, Program Manger on 07/23/2021.
+
+",Observation Noted,Evidence Gap,In Scope,"Require to submit the engineering dev and QA process document. Hardening of all softwares are done by testing in QA and UAT environments before deploying in production. https://drive.google.com/file/d/1Qlcmy1rXwmAPMmmu6BMW8N7kZ89bT-5_/view?usp=sharing
+Peeyush will share a doc on hardening process.",Hardening of all softwares are done by testing in QA and UAT environments before deploying in production. Hardening policy is specifued in the engineering development and QA process document.,No observation noted,,,,,,,,,,,,,,,
+"SCM002: Are controls in place to prevent servers and workstations from booting up from peripheral devices?
+",Yes,,,"Integral Development Corporation does have controls to prevent servers and workstations from booting up from peripheral devices in place.
+
+
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response.
+
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,
+"SCM003: Does your company have a clock synchronization method for all IT systems (e.g., servers, routers, switches, firewalls, databases, and external social spaces), including description of time source (e.g., NTP) in place?
+",Yes,,,"Integral Development Corporation does have a clock synchronization method for all IT systems (e.g., servers, routers, switches, firewalls, databases, and external social spaces), including description of time source (e.g., NTP) in place.
+
+
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response.
+
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,
+"SCM004: Does your company have a Patch Management Policy or Procedure?
+
+If yes, please attach.
+Artifact Required: Patch Management Policy
+
+Design Elements:
+1. Defined organizational patch management schedule and risk based prioritization/categorization (e.g., implementation timeframe associated with each priority)
+2. Requirements for interaction with security vulnerability process
+3. Requirements for interaction with Incident and infosec incident process, if separate
+4. Requirements for patch testing process before going into production
+5. Requirements to include rollback abilities for all patches and updates
+6. Requirements for the prioritization of patch deployments according to vulnerability risk",Yes,,New Security Text 0121.pdf [Stage 5](file),"Integral Development Corporation does not have a patch management policy or procedure in place.
+
+Integral does not have a Patch Management Policy in place. 
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inquiry with Seeja Jiju, Program Manger on 07/23/2021.
+
+",Observation Noted,Control Gap,In Scope,Patch management policy is included in the engineering dev and QA process. https://drive.google.com/file/d/1Qlcmy1rXwmAPMmmu6BMW8N7kZ89bT-5_/view?usp=sharing,,No Observation Noted,,,,,,,,,,,,,,,
+"SCM005: Does your company have controls (e.g., as an enterprise solution for patch management and deployment) to keep all your IT assets up-to-date with latest security patches including applying and verifying all available high or critical risk security patches at least monthly? 
+
+If yes, please describe the tools used within your environment and if patch management follows standard change management process.
+Artifact Required: Log capturing patch updates(coverage of server and work station)",Yes,,Integral Security Policy 2.0.pdf [Stage 5](file),"Integral Development Corporation does have controls (e.g., as an enterprise solution for patch management and deployment) to keep all its IT assets up-to-date with latest security patches including applying and verifying all available high or critical risk security patches at least monthly in place.
+
+Integral patch management follows the standard change management process. Patches are applied manually within the Integral environment. 
+
+Integral was able to provide a redacted event log capturing patch updates. 
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response, inquiry with Seeja Jiju, Program Manger on 07/23/2021 and observation of evidence.
+
+Evidence referenced:
+Event Log - Documents were not retained but inspected and validated remotely.
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,
+"SCM006: Does your company scan systems (e.g., midrange operating systems, databases, laptops, workstations, switches, routers) to identify deviations from the security policy (e.g., baseline misconfigurations, missing patches, end of life software/versions)?
+
+If yes, please describe the tool used (if any), frequency of scanning and remediation process.
+Artifact Required : Example report of scanning performed",Not Applicable,Integral hosts its application in its own data centre.,,"Integral Development Corporation does not scan systems (e.g., midrange operating systems, databases, laptops, workstations, switches, routers) to identify deviations from the security policy (e.g., baseline misconfigurations, missing patches, end of life software/versions).
+
+There is no tool that is continuously scanning for any deviations. There is alerting from Crowdstrike for any malicious behavior. 
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inquiry with Seeja Jiju, Program Manger on 07/23/2021.
+
+",Observation Noted,Control Gap,In Scope,"An IDS system is in place to proactively track network traffic in and out of the network. Network logs are monitored by Integral operations team for anomalies, and unusual or anomalous events are investigated promptly. Refer to the Security policy for details. Anti‐virus software is installed on workstations and servers and is configured to scan on a continuous basis. Anti‐virus software provider pushes updates to the installed anti‐virus software multiple times each day as new updates/signatures become available.",,Control Gap,There is no tool that is continuously scanning for any deviations from the firm's security policy.,,,,,,,,,,,,,,
+"SCM007: Does your company prohibit the use of unauthorized or unsupported hardware and software, including freeware or shareware?
+
+If yes, please describe the process and technical controls implemented.
+
+
+Design Elements:
+ 1. Technical controls are in place that prevent the use of unauthorized and unsupported software
+ 2. Technical controls to detect unauthorized software and remove from company assets",Yes,access control policy is in place.,New Security Text 0121.pdf [Stage 5](file),"Integral Development Corporation does prohibit the use of unauthorized or unsupported hardware and software, including freeware or shareware.
+
+Integral removes local admin rights from general users devices. Admin credentials are required to install software.
+
+The following design elements are in place:
+ 1. Technical controls are in place that prevent the use of unauthorized and unsupported software - TrendMicro prohibits this activity.
+    New Security Text 0121.pdf [Stage 5] - Page 11
+
+ 2. Technical controls to detect unauthorized software and remove from company assets
+    New Security Text 0121.pdf [Stage 5] - Page 11
+
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response, inquiry with Seeja Jiju, Program Manger on 07/23/2021 and inspection of evidence.
+
+Evidence referenced:
+New Security Text 0121.pdf [Stage 5] 
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,
+"SCM008: Does your company prohibit end-users from having local administrator access on their workstations?  
+
+If yes, please describe the technical controls implemented.
+",Yes,access control policy is in place.,03-10 Access Rules.jpg [Stage 5](file),"Integral Development Corporation does prohibit end-users from having local administrator access on its workstations.
+
+As a part of the hardening process, local admin rights are removed from all machines by default.
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response, inquiry with Seeja Jiju, Program Manger on 07/23/2021 and inspection of evidence.
+
+Evidence referenced:
+Integral Development 2020 SOC 1 and ISAE 3402 Type 2 Report.pdf [Stage 5] 
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,
+"SCM009: Does your company have controls to prevent users from altering security system configurations (e.g., screensaver settings, antivirus settings)?
+
+If yes, please describe the technical controls implemented.
+",Yes,access control policy is in place.,03-10 Access Rules.jpg [Stage 5](file),"Integral Development Corporation does have controls to prevent users from altering security system configurations (e.g., screensaver settings, antivirus settings) in place.
+
+Altering of security system configurations requires admin rights. All users have local admin rights removed by default.
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response, inquiry with Seeja Jiju, Program Manger on 07/23/2021 and inspection of evidence.
+
+Evidence referenced:
+Integral Development 2020 SOC 1 and ISAE 3402 Type 2 Report.pdf [Stage 5] 
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,
+"SCM010: Does your company require a user's approval before the help desk can take remote control of their desktop?
+",Yes,,,"Integral Development Corporation does require a user's approval before the help desk can take remote control of its desktop.
+
+
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response.
+
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,
+"SCM011: Does your company have capacity and contingency implemented into your network/data center design standards?
+
+If yes, please describe redundancy controls in place to prevent single points of failure (i.e. geographic separation of backup DNS server)
+",Yes,,,"Integral Development Corporation does have capacity and contingency implemented into its network/data center design standards.
+
+Integral has an active-active configuration set up between the two data centers to prevent singe points of failure. 
+
+This is an informational only question.
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inquiry with Seeja Jiju, Program Manger on 07/23/2021.
+
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,

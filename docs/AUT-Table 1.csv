@@ -1,0 +1,67 @@
+Question,Integral Response,Control Observations/Comments,Attachment(s),Additional Control Observations,Assessor Observations,Observation Type,Question Requirement,Additional Comments,Attachment(s),Updated observation,Updated Assessor Comments,,,,,,,,,,,,,,
+"AUT001: Does your company have an Acceptable Use Policy for information technology?
+Artifact Required: Acceptable Use Policy (May include/require various policies)
+
+Design Elements:
+1. Requirements for acceptable use of personally owned devices on company premises
+2. Requirements for acceptable use of email and messaging systems
+3. Requirements for acceptable use of internet and the use of internet-based services
+4. Requirements for acceptable use of company-owned assets
+5. Requirement that all content be reviewed for non-public, confidential, or proprietary data before the content is physically or electronically posted in a publicly accessible location",Yes,,New Security Text 0121.pdf [Stage 5](file),"Integral Development Corporation does have an acceptable use policy for information technology in place.
+
+
+
+The following design elements are in place:
+1. Requirements for acceptable use of personally owned devices on company premises
+    New Security Text 0121.pdf [Stage 5] - Page 13,  Section Personal Devices 
+
+2. Requirements for acceptable use of email and messaging systems
+    New Security Text 0121.pdf [Stage 5] - Page 15,  Section Email
+
+3. Requirements for acceptable use of internet and the use of internet-based services
+    New Security Text 0121.pdf [Stage 5] - Page 16, Section Internet Access 
+
+4. Requirements for acceptable use of company-owned assets
+    New Security Text 0121.pdf [Stage 5] - Page 14
+
+5. Requirement that all content be reviewed for non-public, confidential, or proprietary data before the content is physically or electronically posted in a publicly accessible location
+    New Security Text 0121.pdf [Stage 5] - Page 3, Section Social Media
+
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inspection of evidence.
+
+Evidence referenced:
+New Security Text 0121.pdf [Stage 5] 
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,
+"AUT002: Do you require employees to acknowledge the Acceptable Use Policy prior to them gaining access to organizational information and information technology assets?
+
+If yes, please describe.
+Artifact Required: Example acknowledgment of Acceptable User Policy an employee [name redacted]",Yes,,"New Security Text 0121.pdf [Stage 5](file)
+03-02 Employee Handbook.pdf [Stage 5](file)","Integral Development Corporation does require employees to acknowledge the Acceptable Use Policy prior to their gaining access to organizational information and information technology assets.
+
+Integral has an Employee Handbook that must be acknowledged by all employees. The Employee Handbook contains Acceptable Use Policy references. 
+
+The assessor inspected an Employee Handbook and validated that employees must sign and acknowledge the handbook.
+
+Assessor work steps: 
+The assessor's comments were completed through inquiry with Seeja Jiju, Program Manager on 07/23/2021 and inspection of evidence.
+
+Evidence referenced:
+Signed employee handbook acknowledgement - Documents were not retained but inspected and validated remotely.
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,
+"AUT003: Does your company have a clean desk, clear screen requirement?
+",Yes,,03-02 Employee Handbook.pdf [Stage 5](file),"Integral Development Corporation does have a clear desk, clear screen requirement in place.
+
+
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inspection of evidence.
+
+Evidence referenced:
+New Security Text 0121.pdf [Stage 5] 
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,

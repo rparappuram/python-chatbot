@@ -1,0 +1,191 @@
+Question,Integral Response,Attachment(s),Additional Comments,Additional Control Observations,Assessor Observations,Observation Type,Question Requirement,Additional Comments,Attachment(s),Updated observation,Updated Assessor Comments,,,,,,,,,,,,,,
+"TPR001: Does your company maintain a formal inventory of your company's Third Parties?  
+
+If yes, please attach or describe your vendor inventory and include Vendor Name, Primary/Secondary Delivery Services Addresses, Descriptions of Services, and Data handled by each.
+Artifact Required: Inventory of Third Parties
+
+Design Elements:
+1.  Third Party name
+2.  Description of services
+3.  Data handled by each
+4.  Primary/Secondary Delivery Services Addresses",Yes,Vendor list: https://drive.google.com/file/d/10hZ0xriVdJEgTnoQ0bRHMewfn8X8k9Km/view?usp=share_link,Integral does have record of the services and data handled by its service providers as well as primary and secondary addresses for such. ,"Integral Development Corporation does maintain a formal inventory of its company's Third Parties.
+
+
+
+However, the following design elements are not in place: 
+2.  Description of services
+3.  Data handled by each
+4.  Primary/Secondary Delivery Services Addresses
+
+The following design elements are in place:
+1.  Third Party name
+    01-09 Vendor Management  - List of Vendors 2021.pdf [Stage 9] - pg. 1 (no section)
+
+
+Assessor work steps: 
+The assessor's comments were completed through inquiry with Seeja Jiju, Program Manager on 07/23/2021 and inspection of evidence.
+
+Evidence referenced:
+01-09 Vendor Management  - List of Vendors 2021.pdf [Stage 9] 
+",Observation Noted,Design Gap,In Scope,"Integral does have record of the services and data handled by its service providers as well as primary and secondary addresses for such.  However, that data is not maintained in a formal inventory document.  Rather, it is contained within its databases and documents such as third party contracts and service documents.",,Design Gap,Updated Design Element 2 to in place. Design Elements 3 and 4 are not captured in a formal inventory.,,,,,,,,,,,,,,
+"TPR002: Does your company have a Third Party Risk Management Policy? 
+
+If yes, please attach.
+Artifact Required: Third Party Risk Management Policy",Not Applicable,"Vendor management process: https://drive.google.com/file/d/1ukUPY2yvboQjwt__5DKTYVjsa1SmUyq8/view?usp=share_link
+
+Risk management process: https://drive.google.com/file/d/1exIxDcxIsaETP4I9ePREUHFyoT4q2MYA/view?usp=share_link",Sub-service providers are only Equinix to provide facility for Data Center. Integral does have a Third Party risk management policy in place.,"Integral Development Corporation does have a Third Party risk management policy in place.
+
+The following design elements are in place:
+1.  Requirements for a risk-based methodology
+    01-07 Vendor Management Policy.pdf [Stage 5] - Page 8, Section 3.5
+
+2.  Five phases of TPM lifecycle - planning/selection, due diligence, contracting, ongoing monitoring, termination
+    01-07 Vendor Management Policy.pdf [Stage 5] - Page 9-15, Sections 3.6 - 6
+
+3.  Definition of third party (e.g., scope of requirements) and any exceptions
+    01-07 Vendor Management Policy.pdf [Stage 5] - Page 5, Section 2
+
+4. Business and control requirements as part of the selection (RFP) process
+    01-07 Vendor Management Policy.pdf [Stage 5] - Page 7, Section 3.2
+
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inspection of evidence.
+
+Evidence referenced:
+01-07 Vendor Management Policy.pdf [Stage 5] 
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,
+"TPR003: Does your company have a Third Party issue management processes including tracking issues and remediation plans through closure? 
+
+If yes, please describe the procedure how issues are logged and tracked to closure (e.g., system used).
+
+
+Design Elements:
+ 1. Issues are risk assessed and rated
+ 2. Issues are escalated as appropriate",Yes,Incident management policy: https://drive.google.com/file/d/1M4pQaHvg0GqaGT0jJCdjz8BPGBMn7QoE/view?usp=share_link,Integral has issue management processes including tracking issues and remediation plans through closure. All issues are tracked through Zendesk for all vendor related issues. ,"Integral Development Corporation does have Third Party issue management processes including tracking issues and remediation plans through closure in place.
+
+Integral has a process in place to track issues and remediation plans through closure. All issues are tracked through Zendesk for all vendor related issues. 
+
+The following design elements are in place:
+ 1. Issues are risk assessed and rated - Validated through inquiry, vendor issues are risk assessed and rated based on the issue. Appropriate actions are taken between Integral and the vendor. 
+ 2. Issues are escalated as appropriate - Validated through inquiry, issue's are escalated to appropriate senior personnel.
+
+The assessor validated through inquiry, the process for tracking issues and remediation plans through closure. 
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inquiry with Seeja Jiju, Program Manager on 07/23/2021.
+
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,
+"TPR004: Does your company have a Supplier Diversity and Inclusion Policy/Program? 
+
+If yes, please attach.
+Artifact Required: Supplier Diversity and Inclusion Policy/Program documents (e.g., policy, procedures)
+
+Design Elements:
+1. Categories/definitions of recognized diversity classifications (Example: women owned business enterprise)
+2. Supplier diversity commitments, goals, or external recognition
+3. Direct procurement spend with diverse suppliers ($ USD and % of overall procurement spend)",Yes,Need doc,"Integral values diversity and inclusion in its business including within service vendors it retains.  However, the implementation of such goals is done informally as Integral is not a large institution wherein such formal structure would be mandated.","Integral Development Corporation does not have a Supplier Diversity and Inclusion Policy/Program in place.
+
+
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inquiry with Seeja Jiju, Program Manager on 07/23/2021.
+
+",Observation Noted,Control Gap,In Scope,"Integral values diversity and inclusion in its business including within service vendors it retains.  However, the implementation of such goals is done informally as Integral is not a large institution wherein such formal structure would be mandated.",,Control Gap,"Formal supplier diversity program is required to close this observation. Program/policy should include: 
+1. Categories/definitions of recognized diversity classifications (Example: women owned business enterprise)
+2. Supplier diversity commitments, goals, or external recognition
+3. Direct procurement spend with diverse suppliers ($ USD and % of overall procurement spend)",,,,,,,,,,,,,,
+"TPR005: Does your review of Third Party suppliers include assessing their criticality, including an initial and periodic risk assessment(s), leading to the performance of required due diligence activities?
+",Yes,"Vendor management process: https://drive.google.com/file/d/1ukUPY2yvboQjwt__5DKTYVjsa1SmUyq8/view?usp=share_link
+","Integral assess the Third Party supplier's criticality, including an initial and periodic risk assessment(s), leading to the performance of required due diligence activities in its review of Third Party suppliers.
+
+Integral assesses third party supplier risks before entering into an agreement. Sub-service providers are only Equinix to provide facility for Data Center. SOC report for Equinix is reviewed annually.","Integral Development Corporation does include assessing a Third Party supplier's criticality, including an initial and periodic risk assessment(s), leading to the performance of required due diligence activities in its review of Third Party suppliers.
+
+Integral assesses third party supplier risks before entering into an agreement.
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inquiry with Seeja Jiju, Program Manager on 07/23/2021.
+
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,
+"TPR006: Does your company perform regular due diligence or assessments as part of your Third Party Management Process? 
+
+If yes, please describe the frequency and scope of your third party assessments.
+Artifact Required: Completed supplier assessment
+
+Design Elements:
+ 1. Assessments are performed both prior to engaging their services and then on a periodic basis based on risk/criticality.
+ 2. Scope of the assessments are commensurate with the services provided by the Third Party
+ 3. Scope of assessments inclusive of multiple compliance or security domains where applicable (e.g., Physical, Network, Application, Change, BCP/DR, Access, Privacy, Vulnerability Management)
+ 4. Scope includes financial stability of supplier",Not Applicable, (Attach the review report https://drive.google.com/file/d/1tyk9jNVCRRAyIiAoLWvrkOMALgZqVcE1/view?usp=sharing,Sub-service providers are only Equinix to provide facility for Data Center. SOC reports of Equinix is reviewed annually by Integral.,"Integral Development Corporation does not perform regular due diligence or assessments as part of its Third Party Management Process.
+
+Sub-service providers are only Equinix to provide facility for Data Center. Integral performs SOC reviews annually. However, the SOC review is not formally documented. 
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inquiry with Seeja Jiju, Program Manager on 07/23/2021.
+
+",Observation Noted,Control Gap,In Scope,SOC reports of Equinix is reviewed annually by Integral., (Attach the review report https://drive.google.com/file/d/1tyk9jNVCRRAyIiAoLWvrkOMALgZqVcE1/view?usp=sharing,Design Gap,"Updated to Design Gap. Design Element 4 is not captured in ""Integral's review of Equinix SOC - 2021 attestation.pdf [Stage 9] "".",,,,,,,,,,,,,,
+"TPR007: Does your company have a standard contract template(s) and Security Requirement which is required to be used with your third parties or subcontractors?  
+
+If yes, please attach the template which covers the listed design elements.
+Artifact Required: Standard contract template (or redacted executed contract) including a copy of the Non-Disclosure Agreement template
+
+Design Elements:
+ 1. The requirement to protect data from misuse and loss
+ 2. The right to periodically inspect or audit the subcontractors controls
+ 3. A requirement for the Third Party to promptly notify you if there is any possible or confirmed breach of information
+ 4. A requirement for the subcontractor to promptly return or destroy all information provided to them, at the instruction of the client, once no longer needed
+ 5. The right to terminate the agreement if your security requirements change and the subcontractor does not agree to the changes
+ 6. A requirement for the Third Party to sign an NDA before confidential information is shared
+ 7. Expectations about information security requirements
+ 8. Third Party monitors its suppliers adherence to laws and regulations
+ 9. Material changes from suppliers are in a written request and approved by Third Party
+ 10. Contract Penalties for missed service levels and other breaches
+ 11. Requirement for approval prior to sharing data with a subcontractor or other entity
+12. Review of Subcontractor Business Continuity Plan to assess ability to recover in contracted timeline",Not Applicable,Attach the doc https://drive.google.com/file/d/1j9_dEaBqZi3lLRA6YCV8AUNhinytshbB/view?usp=sharing,Integral has a standard contract template(s) and/or Security Requirement which is required to be used with its third parties or subcontractors. Sub-service providers are only Equinix to provide facility for Data Center.,"Integral Development Corporation does not have a standard contract template(s) and/or Security Requirement which is required to be used with its third parties or subcontractors in place.
+
+Integral does not have a standard contract template for third party supplier agreements.
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inquiry with Seeja Jiju, Program Manager on 07/23/2021.
+
+",Observation Noted,Control Gap,In Scope,Integral has shared the information which the Assessor observes as an omission.  Integral requests the Assessor clarify how the omission determination was made. ,Attach the doc https://drive.google.com/file/d/1j9_dEaBqZi3lLRA6YCV8AUNhinytshbB/view?usp=sharing,Design Gap,"Updated to Design Gap. Design Elements 2, 7 and 12 are not captured in ""NDA signature copy 082011.pdf [Stage 5]"".",,,,,,,,,,,,,,
+"TPR008: Does your company have a process to conduct regular third party performance monitoring/feedback and measure Third Party performance against contracted SLAs?
+",Yes,,Integral Development Corporation does have a process to conduct regular third party performance monitoring/feedback and measure Third Party performance against contracted SLAs in place.,"Integral Development Corporation does have a process to conduct regular third party performance monitoring/feedback and measure Third Party performance against contracted SLAs in place.
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response.
+
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,
+"TPR009: Does your company have a process to perform Business Resiliency due diligence on subcontractors that you rely on to provide critical services?
+",Yes,01-07 Vendor Management Policy.pdf [Stage 5](file),"Integral has a process to perform Business Resiliency due diligence on subcontractors that it relies on to provide critical services in place.
+
+Integral reviews third parties SOC 2 reports to assess business resiliency. Vendor Policy defines the process. Sub-service providers are only Equinix to provide facility for Data Center.","Integral Development Corporation does have a process to perform Business Resiliency due diligence on subcontractors that it relies on to provide critical services in place.
+
+Integral reviews third parties SOC 2 reports to assess business resiliency. 
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inquiry with Seeja Jiju, Program Manager on 07/23/2021.
+
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,
+"TPR010: Does your company have procedures, standards, or requirements to allow third parties to connect remotely to your environment?
+",Yes,,"Integral has procedures, standards, or requirements to allow third parties to connect remotely to its environment in place
+","Integral Development Corporation does have procedures, standards, or requirements to allow third parties to connect remotely to its environment in place.
+
+
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response.
+
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,

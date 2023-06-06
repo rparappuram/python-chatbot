@@ -1,0 +1,92 @@
+Question,Integral Response,Attachment(s),Additional Comments,Additional Control Observations,Assessor Observations,Observation Type,Question Requirement,Additional Comments,Attachment(s),Updated observation,Updated Assessor Comments,,
+"EDM001: Does your company have a Data Classification Policy that defines and documents your information/data classification scheme? 
+
+If yes, please attach
+Artifact Required: Data Classification Policy
+
+Design Elements:
+1.  Multiple levels of information classification are defined, based on the sensitivity of the information
+2.  Information security controls increase in strength as the sensitivity of the data classification increases  
+3.  Specific requirements for personal/ private information in compliance with regulatory requirements
+4. Information owner definition and responsibilities
+5. Data transformation, aggregated, de-identified, derivatives of or alterations of Financial Institution Data (New Data) as part of the agreed upon services",Yes,"Privacy Policy does state the classification of various types of Personal Data and how that data may be processed (i.e. “handled”) by Integral.  
+
+https://www.integral.com/about/legal/privacy/","The Assessor correctly notes that Integral does have a data classification policy.  Integral also would like to note that it has the following which it suggests address the Assessor's observations:   
+1. The Privacy Policy details controls that are heightened when dealing with Personal Data.  
+2. The Privacy Policy also details the specific requirements as required by applicable law when  dealing with Personal Data.                                        3.  Employment Agreements detail obligations of the company when dealing with employee confidential information.  Integral also has Nondisclosure agreements in place with every customer and vendor, and those detail Integral’s obligations with handling that confidential information.
+4.  As with regard to “information owners” for Personal Data, the owner is the Data Subject, not Integral.  With respect to this information, the General Counsel and Chief Compliance Officer for Integral oversee Integral’s privacy policy implementation and responses in connection therewith.
+5.  Customer Data aggregation and restrictions are addressed in each customer’s agreement specifically.  Other third partyconfidential information and handling of any aggregation of that is either dealt with in the Privacy Policy (for Personal Data), or in the confidentiality provisions in the agreement with the third party. 
+","Integral Development Corporation does have a data classification policy that defines and documents its information/data classification scheme in place.
+
+However, the following design elements are not in place: 
+2.  Information security controls increase in strength as the sensitivity of the data classification increases  
+3.  Specific requirements for personal/ private information in compliance with regulatory requirements
+4. Information owner definition and responsibilities
+5. Data transformation, aggregated, de-identified, derivatives of or alterations of Financial Institution Data (New Data) as part of the agreed upon services
+
+The following design elements are in place:
+1.  Multiple levels of information classification are defined, based on the sensitivity of the information
+    Integral Security Policy 2.0.pdf [Stage 5] - Page 2, Section: Data Management and Information Security 
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response, inquiry with Seeja Jiju, Program Manager on 07/23/2021 and inspection of evidence.
+
+Evidence referenced:
+Integral Security Policy 2.0.pdf [Stage 5] 
+",Observation Noted,Design Gap,In Scope,"The Assessor correctly notes that Integral does have a data classification policy.  Integral also would like to note that it has the following which it suggests address the Assessor's observations:   
+1. The Privacy Policy details controls that are heightened when dealing with Personal Data.  
+2. The Privacy Policy also details the specific requirements as required by applicable law when  dealing with Personal Data.                                        3.  Employment Agreements detail obligations of the company when dealing with employee confidential information.  Integral also has Nondisclosure agreements in place with every customer and vendor, and those detail Integral’s obligations with handling that confidential information.
+4.  As with regard to “information owners” for Personal Data, the owner is the Data Subject, not Integral.  With respect to this information, the General Counsel and Chief Compliance Officer for Integral oversee Integral’s privacy policy implementation and responses in connection therewith.
+5.  Customer Data aggregation and restrictions are addressed in each customer’s agreement specifically.  Other third partyconfidential information and handling of any aggregation of that is either dealt with in the Privacy Policy (for Personal Data), or in the confidentiality provisions in the agreement with the third party. 
+",,Design Gap,Compliance Manual (April 2021).pdf [Stage 9] and PRV001 - Integral _ Privacy Policy.pdf [Stage 13] do not cover Design Elements 2 and 4.,,
+"EDM002: Does your company have a data labeling and handling procedure for each classification scheme?
+
+If yes, please attach.
+Artifact Required: Data Handling Policy/Procedure",Yes,"Privacy Policy does state the classification of various types of Personal Data and how that data may be processed (i.e. “handled”) by Integral.  
+
+https://www.integral.com/about/legal/privacy/"," Integral does have a data classification policy.  Integral also would like to note that it has the following which it suggests address the Assessor's observations:   
+1. The Privacy Policy details controls that are heightened when dealing with Personal Data.  
+2. The Privacy Policy also details the specific requirements as required by applicable law when  dealing with Personal Data.
+3.  Employment Agreements detail obligations of the company when dealing with employee confidential information.  Integral also has Nondisclosure agreements in place with every customer and vendor, and those detail Integral’s obligations with handling that confidential information.
+4.  As with regard to “information owners” for Personal Data, the owner is the Data Subject, not Integral.  With respect to this information, the General Counsel and Chief Compliance Officer for Integral oversee Integral’s privacy policy implementation and responses in connection therewith.
+5.  Customer Data aggregation and restrictions are addressed in each customer’s agreement specifically.  Other third partyconfidential information and handling of any aggregation of that is either dealt with in the Privacy Policy (for Personal Data), or in the confidentiality provisions in the agreement with the third party. 
+","Integral Development Corporation does not have data labeling and handling procedures for each classification scheme in place.
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inquiry with Seeja Jiju, Program Manager on 07/23/2021.
+
+",Observation Noted,Control Gap,In Scope,"Integral would like to note that the Privacy Policy does state the classification of various types of Personal Data and how that data may be processed (i.e. “handled”) by Integral.  
+
+https://www.integral.com/about/legal/privacy/
+",link to the doc: Link to doc: https://drive.google.com/file/d/1NBQbi44Qse4PYx69yNpJzHMmsKBKaC0Z/view?usp=sharing,Control Gap,Data labeling and handling procedure for each classification scheme is required to close.,,
+"EDM003: Does your company logically and physically segregate client data from other client data?
+",Yes,,"Only logical separation is done. All client data is logically segregated via unique client identifiers. 
+","Integral Development Corporation does logically and/or physically segregate client data from other client data.
+
+All client data is logically segregated via unique client identifiers. 
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inquiry with Seeja Jiju, Program Manager on 07/23/2021.
+
+",No Observation Noted,,In Scope,,,,,,
+"EDM004: Does your company maintain a data dictionary, or similar formal documentation, that identifies the data elements that are provided by or captured on behalf of your customers?
+",Yes,,"Integral Development Corporation does maintain a data dictionary, or similar formal documentation, that identifies the data elements that are provided by or captured on behalf of its customers.","Integral Development Corporation does maintain a data dictionary, or similar formal documentation, that identifies the data elements that are provided by or captured on behalf of its customers.
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response.
+
+",No Observation Noted,,In Scope,,,,,,
+"EDM005: Does your company maintain data lineage documentation that identifies the flow and transformation of data within your information systems that are provided by or captured on behalf of your customers?
+",Yes,,Integral Development Corporation does maintain data lineage documentation that identifies the flow and transformation of data within its information systems that are provided by or captured on behalf of its customers.,"Integral Development Corporation does maintain data lineage documentation that identifies the flow and transformation of data within its information systems that are provided by or captured on behalf of its customers.
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response.
+
+",No Observation Noted,,In Scope,,,,,,

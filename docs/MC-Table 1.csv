@@ -1,0 +1,60 @@
+Question,Integral Response,Control Observations/Comments,Attachment(s),Additional Control Observations,Assessor Observations,Observation Type,Question Requirement,Additional Comments,Attachment(s),Updated observation,Updated Assessor Comments,,,,,,,,,,,,,,
+"MC001: Does your company have a Mobile Computing Policy?
+
+If yes, please attach.
+Artifact Required: Mobile Computing Policy",Yes,,Integral UK Cell Phone Policy.docx [Stage 5](file),"Integral Development Corporation does have a mobile computing policy in place.
+
+The assessor inspected Integral's New Security Text and validated that formal mobile computing procedures are documented.
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inspection of evidence.
+
+Evidence referenced:
+New Security Text 0121.pdf [Stage 5] 
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,
+"MC002: Does your company require employees and applicable subcontractors to formally agree to the terms and conditions of the policy?
+",Yes,,,"Integral Development Corporation does require employees and applicable subcontractors to formally agree to the terms and conditions of the policy.
+
+
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response.
+
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,
+"MC003: Does your company have controls/systems to secure information stored on mobile computing devices? 
+
+If yes, please describe the tools used.
+Required Validation:  Walkthrough inspection of the MDM console to validate controls
+
+Design Elements:
+ 1. Systems/procedures for preventing local storage of customer data on mobile devices (e.g., email on hand-held devices)
+ 2. Systems/procedures for protecting data stored locally on mobile devices
+ 3. Restriction of application downloads to approved app stores
+ 4. Device registration process
+ 5. Remote wipe capabilities (e.g., for lost/stolen devices)",Yes,Not storing any information in mobile devices.,Integral UK Cell Phone Policy.docx [Stage 5](file),"Integral Development Corporation does have controls/systems to secure information stored on mobile computing devices in place.
+
+Employees are able to access company email from their mobile devices.
+
+The following design elements are in place:
+ 3. Restriction of application downloads to approved app stores
+    Integral UK Cell Phone Policy.docx [Stage 5] - Page 1
+
+ 4. Device registration process
+    Integral UK Cell Phone Policy.docx [Stage 5] - Page 1
+
+ 5. Remote wipe capabilities (e.g., for lost/stolen devices)
+    Integral UK Cell Phone Policy.docx [Stage 5] - Page 1
+
+
+The following design elements are not applicable:
+ 1. Systems/procedures for preventing local storage of customer data on mobile devices (e.g., email on hand-held devices) - Integral does not store information on mobile devices.
+ 2. Systems/procedures for protecting data stored locally on mobile devices
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response, inquiry with Seeja Jiju, Program Manager on 07/23/2021 and inspection of evidence.
+
+Evidence referenced:
+Integral UK Cell Phone Policy.docx [Stage 5] 
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,

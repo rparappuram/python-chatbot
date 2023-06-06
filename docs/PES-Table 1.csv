@@ -1,0 +1,281 @@
+Question,Integral Response,Attachment(s),Additional Comments,Additional Control Observations,Assessor Observations,Observation Type,Question Requirement,Additional Comments,Attachment(s),Updated observation,Updated Assessor Comments,,,,,,,,,,,,,,,
+"PES001: Does your company have a Physical Security and Environmental Policy, Plan or Procedure that covers protection of clients’ resources (e.g., information, documentation)? 
+
+If yes, please attach the policy.
+Artifact Required: Physical Security and Environmental Policy
+
+Design Elements:
+1. Criteria for determining risk level of facility based on the activities in each location
+2. Requirements for physical access including Health and Safety requirements
+3. Requirements for perimeter security
+4. References the incident management policies and procedures in the event of a breach
+5. Requirements for physical threat assessment (e.g., natural disasters, civil unrest)",Yes,Security Handbook: https://drive.google.com/file/d/1PNl2i4vEh063nN64pO1OXyBO1CTsArmb/view?usp=share_link,"Integral Development Corporation does have a Physical Security and Environmental Policy, Plan or Procedure that covers protection of clients' resources (e.g., information, documentation) in place. Audited under SOC.","Integral Development Corporation does have a Physical Security and Environmental Policy, Plan or Procedure that covers protection of clients' resources (e.g., information, documentation) in place.
+
+However, the following design elements are not in place: 
+1. Criteria for determining risk level of facility based on the activities in each location
+2. Requirements for physical access including Health and Safety requirements
+3. Requirements for perimeter security
+4. References the incident management policies and procedures in the event of a breach
+5. Requirements for physical threat assessment (e.g., natural disasters, civil unrest)
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inquiry with Seeja Jiju, Program Manager on 07/23/2021.
+
+",Observation Noted,Control Gap,In Scope,Can share the enterprise risk management process doc. https://drive.google.com/file/d/1IHdWMN5CaV2j2HSln1-yE0-6XQJD47DR/view?usp=sharing,,Control Gap,Physical Security policy covering all design elements is not in place.,,,,,,,,,,,,,,,
+"PES002: Does your company control physical access to your facility with a way to uniquely identify each person entering the area (e.g., badge, access card, and biometrics)?
+
+If yes, please describe the system/tools in place for physical access.
+Artifact required:  Example of an access log from physical security system
+
+Design Elements:
+1. Location Accessed
+2. Date and Time of Entry
+3. Username (or Employee ID)
+4. Logs for a minimum of 12 months are available",Yes,Employee handbook: https://drive.google.com/file/d/1PNl2i4vEh063nN64pO1OXyBO1CTsArmb/view?usp=share_link,"Integral has control physical access to its facility with a process that uniquely identifies each person entering the area (e.g., badge, access card, and biometrics). Audited under SOC.","Integral Development Corporation does control physical access to its facility with a process that uniquely identifies each person entering the area (e.g., badge, access card, and biometrics).
+
+The following design elements are in place:
+1. Location Accessed - Validated via inquiry with Seeja Jiju
+2. Date and Time of Entry - Validated via inquiry with Seeja Jiju
+3. Username (or Employee ID) - Validated via inquiry with Seeja Jiju
+4. Logs for a minimum of 12 months are available - Validated via inquiry with Seeja Jiju
+
+Integral did not provide evidence of physical access logs of their corporate facility. 
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inquiry with Seeja Jiju, Program Manager on 07/23/2021.
+
+","Observation Noted
+
+No Observation Noted --- closed",Evidence Gap,In Scope,Integral badge access log can be provided. https://drive.google.com/file/d/173Np6vl65wQ7Js_M9NtfWHV0pAPL9jYX/view?usp=sharing,,No Observation Noted,,,,,,,,,,,,,,,,
+"PES003: Does your company restrict access to buildings or areas where data is stored, transmitted, or processed to authorized personnel only with, at a minimum, electronic badging or other access control methods?
+
+If yes, please describe.
+Required Validation: Physical walkthrough of the facility for physical security controls.
+
+Design Elements:
+ 1. Emergency exits are secured, alarmed, and monitored 24/7
+ 2. Walls extend from true floor to true ceiling
+ 3. Anti-tailgating (anti-piggybacking) mechanisms at each point of entry
+4. External doors monitored
+5. Production server/computer equipment and supporting infrastructure (e.g., cabling) are located in secured areas (if applicable)
+6. Cabinets, racks and cages are locked/secured at all times (if applicable)",Yes,Equinix (Americas) SOC report: https://drive.google.com/drive/folders/19uGT_XboPXw2y7bQpQXISGsoZOpQh2QA,"Integral does restrict access to buildings or areas where data is stored, transmitted, or processed to authorized personnel only with, at a minimum, electronic badging or other access control methods. Audited under SOC. Data center physical security is addressed in Equinix SOC report.","Integral Development Corporation does restrict access to buildings or areas where data is stored, transmitted, or processed to authorized personnel only with, at a minimum, electronic badging or other access control methods.
+
+All client data is stored at Integral's third party data centers (Equinix). 
+
+The following design elements are in place:
+ 1. Emergency exits are secured, alarmed, and monitored 24/7
+    Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Page 71, A1.2.9
+
+ 2. Walls extend from true floor to true ceiling
+    Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Page 71, A1.2.9
+
+ 3. Anti-tailgating (anti-piggybacking) mechanisms at each point of entry
+    Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Page 15, Section Physical Security
+
+4. External doors monitored
+    Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Page 15, Section Physical Security
+
+5. Production server/computer equipment and supporting infrastructure (e.g., cabling) are located in secured areas (if applicable)
+    Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Page 58, CC6.4.10
+
+6. Cabinets, racks and cages are locked/secured at all times (if applicable)
+    Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Page 58, CC6.4.10
+
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response, inquiry with Seeja Jiju, Program Manager on 07/23/2021 and inspection of evidence.
+
+Evidence referenced:
+Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Documents were not retained but inspected and validated remotely.
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,,
+"PES004: Does your company have controls for employees and visitors to obtain physical access authorization, including requiring an escort anywhere client data is located?
+
+If yes, please describe the controls or system in place.
+Artifact Required : Sample access request form for employee or visitor 
+
+Required validation:  Visitor check-in process
+
+Design Elements:
+1. Authorized ID
+2. Escorted
+3. Logging entry and departure
+4. Badge visible at all-time
+5. Expiration / retrieval",Yes,Equinix (Americas) SOC report: https://drive.google.com/drive/folders/19uGT_XboPXw2y7bQpQXISGsoZOpQh2QA,"Integral Development Corporation does have controls for employees and visitors to obtain physical access authorization, including requiring an escort anywhere client data is located, in place. Audited under SOC. Data center physical security is addressed in Equinix SOC report.","Integral Development Corporation does have controls for employees and visitors to obtain physical access authorization, including requiring an escort anywhere client data is located, in place.
+
+The following design elements are in place:
+1. Authorized ID
+    Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Page 58, CC6.4.10
+
+2. Escorted
+    Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Page 56, Section CC6.4.1
+
+3. Logging entry and departure
+    Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Page 57, CC6.4.7
+
+4. Badge visible at all-time
+    Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Page 56, CC6.4.1
+
+5. Expiration / retrieval
+    Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Page 56, CC6.4.1
+
+
+All client data is stored at Integral's third party data center provider (Equinix). Data is not stored at Integral's corporate offices. 
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response, inquiry with Seeja Jiju, Program Manager on 07/23/2021 and inspection of evidence.
+
+Evidence referenced:
+Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Documents were not retained but inspected and validated remotely.
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,,
+"PES005: Does your company update all physical access rights within 24 hours of termination/resignation/change in function of an employee or subcontractor?
+",Yes,Integral SOC report: https://drive.google.com/file/d/1-mbAXhAv-OZoRjjZuN4lKVOtm7zfq9X5/view?usp=share_link,Integral Development Corporation does update all physical access rights within 24 hours of termination/resignation/change in function of an employee or subcontractor. Audited under SOC. Refer  Control 4.3.,"Integral Development Corporation does update all physical access rights within 24 hours of termination/resignation/change in function of an employee or subcontractor.
+
+Integral removes physical access rights from their corporate facility within 24 hours of termination. Physical access to Equinix's data center is removed immediately and tested in their SOC 2, Type 2 report.
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response, inspection of evidence and inquiry with Seeja Jiju, Program Manager on 07/23/2021.
+
+Evidence referenced:
+Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Documents were not retained but inspected and validated remotely.
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,,
+"PES006: Does your company conduct a formal access-level review of physical access control lists? 
+
+If yes, please describe and document timing (e.g. monthly, quarterly, annually)
+Artifact Required: Evidence of recent physical user access recertification",Yes,Integral SOC report: https://drive.google.com/file/d/1-mbAXhAv-OZoRjjZuN4lKVOtm7zfq9X5/view?usp=share_link,User access lists are reviewed regularly and audited annually. Audited under SOC. Refer Control 4.3,"Integral Development Corporation does not conduct a formal access-level review of physical access control lists.
+
+Integral does not perform a formal physical access review for their corporate offices. A review of data center users is performed annually by Equinix in conjunction with Integral. 
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response, inspection of evidence and inquiry with Seeja Jiju, Program Manager on 07/23/2021.
+
+",Observation Noted,Control Gap,In Scope,User access lists are reviewed regularly and audited annually. This is mentioned in SOC. Need to check with auditors if additional evidence required. https://drive.google.com/file/d/1-9czjMn9UnWEDhvTl8NxOORpFWRNrytR/view?usp=sharing,,No Observation Noted,,,,,,,,,,,,,,,,
+"PES007: Does your company monitor the internal and external premises with 24/7/365 surveillance cameras and store/retain video data for at least 30 days for general operations and 90 days for data centers?
+
+If yes, please describe the process along with retention period of your video surveillance.
+Artifact Required: Video recording example from datacenters showing 90 days of storage
+
+Design Elements:
+1. Surveillance cameras are in place at processing or datacenter facilities.
+2.  Video data storage is in a secured, fire-proof location with limited access
+3. Backup video data storage is maintained outside of the in-scope facility
+4. All monitoring devices have been inspected within the last 12 months",Not Applicable,Equinix (Americas) SOC report: https://drive.google.com/drive/folders/19uGT_XboPXw2y7bQpQXISGsoZOpQh2QA,Integral does monitor the internal and external premises with surveillance cameras for data centers. Equinix stores and retains all data center surveillance.,"Integral Development Corporation does monitor the internal and external premises with 24/7/365 surveillance cameras and store/retain video data for at least 30 days for general operations and 90 days for data centers.
+
+Equinix stores and retains all data center surveillance. 
+
+The following design elements are in place:
+1. Surveillance cameras are in place at processing or datacenter facilities.
+    Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Page 57, CC6.4.9
+
+2.  Video data storage is in a secured, fire-proof location with limited access
+    Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Page 57, CC6.4.9
+
+3. Backup video data storage is maintained outside of the in-scope facility
+    Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Page 57, CC6.4.9
+
+4. All monitoring devices have been inspected within the last 12 months
+    Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Page 57, CC6.4.9
+
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response, inspection of evidence and inquiry with Seeja Jiju, Program Manager on 07/23/2021.
+
+Evidence referenced:
+Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Documents were not retained but inspected and validated remotely.
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,,
+"PES008: Does your company ensure that facilities are patrolled by security guards? 
+
+If yes, please describe.
+",Yes,Equinix (Americas) SOC report: https://drive.google.com/drive/folders/19uGT_XboPXw2y7bQpQXISGsoZOpQh2QA,Integral does ensure that facilities are patrolled by security guards. Data center security is covered under the security policy of Equinix.,"Integral Development Corporation does ensure that facilities are patrolled by security guards.
+
+Integral's corporate offices are patrolled 24/7. Additionally, Equinix data centers are patrolled 24/7/365.
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inspection of evidence.
+
+Evidence referenced:
+Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Documents were not retained but inspected and validated remotely.
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,,
+"PES009: For datacenter and mission critical locations does your company have a process to ensure electrical power is available 24/7 including emergency power generators and Uninterruptible Power Supply (UPS)?  
+
+If yes, please describe.
+
+Critical locations defined as locations that store, process, or transmit client data.
+Required Validation: Physical walkthrough of the facility for power controls.
+
+Design Elements:
+1. Uninterruptible Power Supply (UPS) is used for networking equipment and critical servers
+2. Emergency Power Generators are utilized in datacenters and processing facilities
+3. Annual maintenance occurs on the power equipment",Yes,Equinix (Americas) SOC report: https://drive.google.com/drive/folders/19uGT_XboPXw2y7bQpQXISGsoZOpQh2QA,Data center security is covered under the security policy of Equinix.,"Integral Development Corporation does have a process to ensure electrical power is available 24/7 including emergency power generators and Uninterruptible Power Supply (UPS) for datacenter and mission critical locations in place.
+
+The following design elements are in place:
+1. Uninterruptible Power Supply (UPS) is used for networking equipment and critical servers
+    Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf -  Page 70, A1.2.4
+
+2. Emergency Power Generators are utilized in datacenters and processing facilities
+    Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Page 69, A.1.2.3
+
+3. Annual maintenance occurs on the power equipment
+    Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Page 69, A.1.2.3
+
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inspection of evidence.
+
+Evidence referenced:
+Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Documents were not retained but inspected and validated remotely.
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,,
+"PES010: For datacenter and mission critical locations, does your company have environmental controls in all areas where critical information is managed/stored including fire/smoke alarms and suppression and HVAC alarms/controls?
+
+If yes, please describe.
+Required Validation: Physical walkthrough of the facility for environmental and fire controls.
+
+Design Elements:
+1. Fire alarms/alerts and suppression
+2. CO2 detectors
+3. Smoke alarms
+4. Temperature & humidity alarms (datacenter only)  
+5. Environmental control equipment (e.g. fire suppression /HVAC) have been inspected within the last 12 months
+6. Water detection alarms (datacenter only)
+7. Event monitoring, logging and procedure to manage all events",Yes,Equinix (Americas) SOC report: https://drive.google.com/drive/folders/19uGT_XboPXw2y7bQpQXISGsoZOpQh2QA,Data center security is covered under the security policy of Equinix.,"Integral Development Corporation does have environmental controls in all areas where critical information is managed/stored including fire/smoke alarms and suppression and HVAC alarms/controls for datacenter and mission critical locations in place.
+
+The following design elements are in place:
+1. Fire alarms/alerts and suppression
+    Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Page 69, A1.2.1
+
+2. CO2 detectors
+    Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Page 69, A1.2.2
+
+3. Smoke alarms
+    Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Page 69, A1.2.2
+
+4. Temperature & humidity alarms (datacenter only)  
+    Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Page 70, A1.2.5
+
+5. Environmental control equipment (e.g. fire suppression /HVAC) have been inspected within the last 12 months
+    Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Page 70, A1.2.6
+
+6. Water detection alarms (datacenter only)
+    Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Page 70, A1.2.6
+
+7. Event monitoring, logging and procedure to manage all events
+    Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Page 70, A1.2.7
+
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inspection of evidence.
+
+Evidence referenced:
+Equinix (Americas) - 2020 SOC 2 Type 2 - Report.pdf - Documents were not retained but inspected and validated remotely.
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,,

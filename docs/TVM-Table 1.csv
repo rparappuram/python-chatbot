@@ -1,0 +1,252 @@
+Question,Integral Response,Control Observations/Comments,Attachment(s),Additional Control Observations,Assessor Observations,Observation Type,Question Requirement,Additional Comments,Attachment(s),Updated observation,Updated Assessor Comments,,,,,,,,,,,,,,,
+"TVM001: Does your company have a Threat and Vulnerability Management Policy? 
+
+If yes, please attach.
+Artifact Required: Vulnerability, Malware and Threat Management Policy/Program
+
+Design Elements:
+1. Requirements for routine scanning of assets for vulnerabilities
+2. Requirements for anti-virus/malware containment and resolution processes
+3. Requirements for the ranking, tracking, and remediation of findings from vulnerability scans/penetration tests including risk acceptance",Yes,,"Integral Security Policy 2.0.pdf [Stage 5](file)
+Integral Development 2020 SOC 1 and ISAE 3402 Type 2 Report.pdf [Stage 5](file)","Integral Development Corporation does have a Threat and Vulnerability Management Policy in place.
+
+The following design elements are in place:
+1. Requirements for routine scanning of assets for vulnerabilities
+    Integral Security Policy 2.0.pdf [Stage 5] - Page 2, Section Independent Risk Assessments
+
+2. Requirements for anti-virus/malware containment and resolution processes - No exception noted. 
+    Integral Development 2020 SOC 1 and ISAE 3402 Type 2 Report.pdf [Stage 5] - CC5.3, 
+    Integral Security Policy 2.0.pdf [Stage 5] - Page 2, Section Independent Risk Assessments
+
+3. Requirements for the ranking, tracking, and remediation of findings from vulnerability scans/penetration tests including risk acceptance
+    Integral Security Policy 2.0.pdf [Stage 5] - Page 2, Section Independent Risk Assessments
+
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and observation of evidence.
+
+Evidence referenced:
+Integral Development 2020 SOC 1 and ISAE 3402 Type 2 Report.pdf [Stage 5] 
+Integral Security Policy 2.0.pdf [Stage 5] 
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,,
+"TVM002: Does your company deploy antivirus/anti-malware software on all laptops/workstations and implement signature updates at least twice weekly? 
+
+If yes, please mention the name of the  software and deployment mode (centralized/stand-alone).
+Artifact Required: 
+Screen shot of antivirus software on in-scope workstations reflecting the last update details.",Yes,TrendMicro,05-04 TrendMicro Update Frequency.pdf [Stage 5](file),"Integral Development Corporation does deploy antivirus/anti-malware software on all laptops/workstations and implement signature updates at least twice weekly.
+
+Integral utilizes TrendMicro AV.
+
+The assessor inspected the screenshot of the antivirus software for in-scope workstations. Updates occur every 2 hours. 
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inspection of evidence.
+
+Evidence referenced:
+05-04 TrendMicro Update Frequency.pdf [Stage 5] 
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,,
+"TVM003: Does your company deploy antivirus/anti-malware software on all servers and implement signature updates at least twice weekly?
+
+ If yes, please mention the name of the  software and deployment mode (centralized/stand-alone).
+
+If no, please describe what servers are not in scope and why.
+Artifact Required: 
+Screen shot of antivirus software on in-scope servers reflecting the last update details.",Yes,,05-04 TrendMicro Update Frequency.pdf [Stage 5](file),"Integral Development Corporation does deploy antivirus/anti-malware software on all servers and implement signature updates at least twice weekly.
+
+TrendMicro AV is installed on all servers. 
+
+As per SOC 1, the service auditor obtained and reviewed screenshots of the antivirus dashboard and verified that anti-virus software was installed on workstations and servers and was configured to scan on a continuous basis. 
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response, inquiry with Seeja Jiju, Program Manager on 07/23/2021 and inspection of evidence.
+
+Evidence referenced:
+Integral Development 2020 SOC 1 and ISAE 3402 Type 2 Report.pdf [Stage 5] 
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,,
+"TVM004: Does your company perform real-time, periodic, and on-demand anti-virus scanning across your IT systems including servers, laptops, and desktops?
+Artifact Required: Screenshot of antivirus console capturing the frequency of scan",Yes,,05-04 TrendMicro Update Frequency.pdf [Stage 5](file),"Integral Development Corporation does perform real-time, periodic, and on-demand anti-virus scanning across its IT systems including servers, laptops, and desktops.
+
+
+
+The assessor inspected via viewing a screenshot of the TrendMicro frequency for updates. Scan for updates occur every 2 hours. 
+
+Additionally, as per SOC 1, the service auditor obtained and reviewed screenshots of the antivirus dashboard and verified that anti-virus software was installed on workstations and servers and was configured to scan on a continuous basis. 
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inspection of evidence.
+
+Evidence referenced:
+05-04 TrendMicro Update Frequency.pdf [Stage 5] 
+Integral Development 2020 SOC 1 and ISAE 3402 Type 2 Report.pdf [Stage 5] 
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,,
+"TVM005: Does your company have a process / system in place to detect and rectify machines without anti-virus installed, without the latest virus definitions, and without the latest version of their anti-virus tool/solution?
+
+If yes, please describe the isolation and remediation process.
+",Yes,,Integral Security Policy 2.0.pdf [Stage 5](file),"Integral Development Corporation does have a process/system to detect and rectify machines without anti-virus installed, without the latest virus definitions, and without the latest version of its anti-virus tool/solution in place.
+
+Integral will immediately remove an affected machine from the network and triage the device until the malware is rectified. 
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response, inspection of evidence and inquiry with Seeja Jiju, Program Manager on 07/23/2021.
+
+Evidence referenced:
+Integral Development 2020 SOC 1 and ISAE 3402 Type 2 Report.pdf [Stage 5] 
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,,
+"TVM006: Does your company scan all email attachments for malware?  
+
+If yes, please describe the tools used to scan.
+",Yes,Defined in security policy.,Integral Security Policy 2.0.pdf [Stage 5](file),"Integral Development Corporation does scan all email attachments for malware.
+
+All incoming email is scanned using Barracuda. 
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response, inspection of evidence and inquiry with Seeja Jiju, Program Manager on 07/23/2021.
+
+Evidence referenced:
+Integral Development 2020 SOC 1 and ISAE 3402 Type 2 Report.pdf [Stage 5] 
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,,
+"TVM007: Does your company deploy and have controls to update an intrusion detection system (IDS) and an intrusion prevention system (IPS) in your environment?
+
+If yes, please supply the name of the tool and the frequency of alert reviews.
+",Yes,User account is locked after fixed number of unauthorized attempts.,,"Integral Development Corporation does deploy and have controls to update an intrusion detection system (IDS) and/or an intrusion prevention system (IPS) in its environment.
+
+ Cloudflare Security Solution is utilized for IPS/IDS. Alerts are sent in real-time to Integral's SIEM, which is monitored 24/7.
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inquiry with Seeja Jiju, Program Manager on 07/23/2021.
+
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,,
+"TVM008: Does your company have a solution in place to detect, prevent, contain and mitigate DoS (denial of service) and DDoS (distributed denial of service) attacks for all business-critical, Internet-facing systems? 
+
+If yes, please describe the discovery of DoS/DDoS events and response process.
+",Yes,Integral uses CloudFlare's security solution for network security including mitigating DDoS attacks.,,"Integral Development Corporation does have a solution to detect, prevent, contain and mitigate DoS (denial of service) and DDoS (distributed denial of service) attacks for all business-critical, Internet-facing systems in place.
+
+Integral uses Cloudflare's security solution for network security including mitigating DDoS attacks.
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inquiry with Seeja Jiju, Program Manager on 07/23/2021.
+
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,,
+"TVM009: Are controls in place to protect against DNS hijacking, man-in-the-middle and other similar attacks? 
+If yes, please describe all processes/tools used.
+",Yes,Integral uses CloudFlare's security solution for network security including mitigating DDoS attacks.,,"Integral Development Corporation does have controls to protect against DNS hijacking, man-in-the-middle and other similar attacks in place.
+
+Integral uses Cloudflare's security solution for network security including mitigating DNS hijacking and similar attacks.
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inquiry with Seeja Jiju, Program Manager on 07/23/2021.
+
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,,
+"TVM010: Does your company conduct network vulnerability scans against all hosts on a periodic basis. 
+
+If yes, please describe the tool used and frequency of scanning.
+Artifact Required: Network vulnerability scan report
+
+Design Elements:
+1. scope of report contains all hosts.
+2. Document tools used
+3. Validate if scans are authenticated or unauthenticated",Yes,Conducted by independent risk assessment agency.,2021-03-20_VulnerabilityTest.pdf [Stage 5](file),"Integral Development Corporation does conduct network vulnerability scans against all hosts on a periodic basis.
+
+Integral conducts independent network vulnerability scans. Scans occur quarterly. 
+
+The following design elements are in place:
+1. scope of report contains all hosts.
+    2021-03-20_VulnerabilityTest.pdf [Stage 5] - Page 2, Port Scan
+
+2. Document tools used
+    2021-03-20_VulnerabilityTest.pdf [Stage 5] - Page 2, Executive Summary
+
+3. Validate if scans are authenticated or unauthenticated - Validated through inquiry, Unauthenticated scanning is completed 
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inspection of evidence.
+
+Evidence referenced:
+2021-03-20_VulnerabilityTest.pdf [Stage 5] 
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,,
+"TVM011: Does your company conduct network penetration tests that cover all external-facing network devices at least every 12 months and after any significant changes?
+
+If yes, please attach the network penetration testing report and describe the frequency of the test.
+Artifact Required: Network penetration report test results
+
+Design Elements:
+1. Confirm if any critical and high risk findings are still open. 
+2. Confirm if it is performed by an independent  team or company.
+3. Validate that a Network Penetration test has been performed in the last 12 months and it covers all, or high risk, external network devices.",Yes,,Trading+Sites+Penetration+2021-04 (1).pdf [Stage 5](file),"Integral Development Corporation does conduct network penetration tests that cover all external-facing network devices at least every 12 months.
+
+
+
+The following design elements are in place:
+1. Confirm if any critical and high risk findings are still open. 
+    Trading+Sites+Penetration+2021-04 (1).pdf [Stage 5] - no findings are still open
+
+2. Confirm if it is performed by an independent  team or company.
+    Trading+Sites+Penetration+2021-04 (1).pdf [Stage 5] - performed by Saint
+
+3. Validate that a Network Penetration test has been performed in the last 12 months and it covers all, or high risk, external network devices.
+    Trading+Sites+Penetration+2021-04 (1).pdf [Stage 5] - 4/15/21
+
+
+Assessor work steps: 
+The assessor's comments were completed through inquiry with Seeja Jiju, Program Manager on 07/23/2021 and inspection of evidence.
+
+Evidence referenced:
+Trading+Sites+Penetration+2021-04 (1).pdf [Stage 5] 
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,,
+"TVM012: For applications that store, transfer, or process customer/confidential data, does your company conduct periodic application vulnerability scans?  
+
+If yes, please provide the frequency of these scans.
+",Yes,Quarterly scans are conducted.,2021-03-20_VulnerabilityTest.pdf [Stage 5](file),"Integral Development Corporation does conduct periodic application vulnerability scans for applications that store, transfer, or process customer/confidential data.
+
+Quarterly scans are conducted.
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inquiry with Seeja Jiju, Program Manager on 07/23/2021.
+
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,,
+"TVM013: For all web applications (both internally and externally facing) which store, process, or transfer customer or confidential data, does your company conduct application penetration tests prior to production use and at least annually?
+
+If yes, please attach the application penetration testing report.
+Artifact Required: External facing application penetration test results
+
+Design Elements:
+1. Validate via inspection that the testing covers OWASP top 10 at a minimum and also document any additional coverage
+2. Validate via inspection or inquiry that any critical and high risk findings are remediated prior to production use and within 30 days for already in production systems
+3. Performed by an independent  team or company",Yes,,Trading+Sites+Penetration+2021-04 (1).pdf [Stage 5](file),"Integral Development Corporation does not conduct application penetration tests prior to production use and at least every 12 months for all web applications (both internally and externally facing) which store, process, or transfer customer or confidential data.
+
+
+
+The assessor inspected the provided evidence and validated that an external network and web application vulnerability scan was completed but not a formal penetration test. 
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inquiry with Seeja Jiju, Program Manager on 07/23/2021.
+
+",Observation Noted,Control Gap,In Scope,Penetration test reports have already been submitted to the Assesor so Integral is unclear as to why the observation is noted.,,No observation noted,Updated to Design Gap since tests are conducted internally.,,,,,,,,,,,,,,,
+"TVM014: Does your company perform application vulnerability scans and penetration tests after each significant change? 
+
+If yes, please describe your firm's definition of a significant change.
+",No,Vulnerability scans are conducted quarterly and Penetration tests are conducted in every six months.,,"Integral Development Corporation does not perform application vulnerability scans and/or penetration tests after each significant change.
+
+Vulnerability scans are conducted quarterly, and penetration tests are conducted every six months. Scans are not formally completed after every significant change.
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inquiry with Seeja Jiju, Program Manager on 07/23/2021.
+
+",Observation Noted,Control Gap,In Scope,Vulnerability scans are done every quarter and if required vulnerabilties tests are repeated. (see attached before and after TLS disabling),,No observation noted,Tests are not conducted after each significant change and only on a scheduled basis. Observation remains.,,,,,,,,,,,,,,,
+"TVM015: Does your company have a process to rescan findings from vulnerability scans/penetration tests until no critical or high-risk findings are identified? 
+
+If yes, please describe rescan timing.
+",No,Vulnerability scans are conducted quarterly and Penetration tests are conducted in every six months.,,"Integral Development Corporation does not have a process to rescan findings from vulnerability scans/penetration tests until no critical or high-risk findings are identified in place.
+
+Vulnerability scans are conducted quarterly, and penetration tests are conducted in every six months.
+
+Rescans are completed quarterly and validate the remediation of penetration test findings. 
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inquiry with Seeja Jiju, Program Manager on 07/23/2021.
+
+",Observation Noted,Control Gap,In Scope,Integral would like to note that rescans are done after remediations. TLS 1.0 disabling and rescan reports are attached.,,No Observation Noted,,,,,,,,,,,,,,,,

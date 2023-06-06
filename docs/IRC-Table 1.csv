@@ -1,0 +1,103 @@
+Question,Integral Response,Attachment(s),Additional Comments,Control Observations/Comments,Assessor Observations,Observation Type,Question Requirement,Additional Comments,Attachment(s),Updated observation,Updated Assessor Comments,,,,,,,,,,,,,,,
+"IRC001: Does your company have an Information Security Risk Management Policy?
+
+If yes, please attach.
+Artifact Required: Information Security Risk Management Policy
+
+Design Elements:
+1. Risk ranking matrix
+2. Risk identification, treatment - remediation and acceptance processes
+3. Risk assessment requirements
+4. Owner or function who maintains and reviews
+5. Requirements for monitoring of results of risk assessment
+6. Requirements for risk tracking, reporting and escalation",Yes,Refer Enterprise Risk Management doc: https://drive.google.com/file/d/1exIxDcxIsaETP4I9ePREUHFyoT4q2MYA/view?usp=share_link,Integral Development Corporation does have an information security risk management policy in place.,Risk management and security policy are attached.,No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,,
+"IRC002: Do you have a process to approve exceptions to the established information security policies? 
+
+If yes, please describe the process to approve an exception to your information security policy.
+Required Validation: Observe the information security exception register
+
+Design Elements:
+1. Scope of exception
+2. Expiry details 
+3. Approved by authorized personnel",Yes,Users list of data center access list. (review doc) https://drive.google.com/file/d/1-9czjMn9UnWEDhvTl8NxOORpFWRNrytR/view?usp=sharing,"Integral Development Corporation does have a process to approve exceptions to the established information security policies in place.
+
+The following design elements are in place:
+1. Scope of exception - Validated through inquiry, exceptions go through the change management process. ZenDesk ticketing system is used. 
+2. Expiry details  - Validated through inquiry. 
+3. Approved by authorized personnel - Validated through inquiry. 
+
+Integral was unable to provide evidence of their exception register. 
+
+The attached evidence shows a user access review and does not cover the information security exception register required to close this observation. Sample ZenDesk policy exception required to close.",,Observation Noted,Evidence Gap,In Scope,Users list of data center access list. (Share the review doc)https://drive.google.com/file/d/1-9czjMn9UnWEDhvTl8NxOORpFWRNrytR/view?usp=sharing,,Evidence Gap,The attached evidence shows a user access review and does not cover the information security exception register required to close this observation. Sample ZenDesk policy exception required to close.,,,,,,,,,,,,,,,
+"IRC003: Does your company perform information security risk assessment or Threat and Vulnerability Risk Assessment (TVRA) on your data, and key process?
+Artifact Required: Example of most recent information security risk assessment results
+
+Design Elements:
+1. Scope of the risk assessment
+2. Date of risk assessment
+3. Documentation of the risk assessment results
+4. Review of the risk assessment results
+5. Dissemination of risk assessment results to stakeholders
+6. Assess / Update the information security risks and security controls applicable to the information asset and its environment of operation on a regularly scheduled basis or whenever there are significant changes.",Yes,,"Integral Development Corporation does perform an information security risk assessment or Threat and Vulnerability Risk Assessment (TVRA) on its data and key process.
+
+Integral performs vulnerability and penetration testing on the company's information assets. In addition, Integral completes a SOC 1 audit on an annual basis. 
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inquiry with Seeja Jiju, Program Manager on 07/23/2021.
+
+","Audited as part of SOC. (Reference Pg 31, Control# 3.13)",Observation Noted,Control Gap,In Scope,"An IDS system is in place to proactively track network traffic in and out of the network. Network logs are monitored by Integral operations team for anomalies, and unusual or anomalous events are investigated promptly. Refer to the Security policy for details. Anti‐virus software is installed on workstations and servers and is configured to scan on a continuous basis. Additionally, SOC audit and certifications are conducted annually for all the key process areas.",,Control Gap,"Formal internal Information Security Risk Assessment (SOC Audit is an external assessment) is required to close and must capture the following:
+1. Scope of the risk assessment
+2. Date of risk assessment
+3. Documentation of the risk assessment results
+4. Review of the risk assessment results
+5. Dissemination of risk assessment results to stakeholders
+6. Assess / Update the information security risks and security controls applicable to the information asset and its environment of operation on a regularly scheduled basis or whenever there are significant changes.",,,,,,,,,,,,,,,
+"IRC004: Does your company have an Information Security Policy?   
+
+If yes, please attach.
+Artifact Required: Information Security Policy",Yes,Integral Security Policy 2.0.pdf [Stage 5](file),"Integral Development Corporation does have an information security policy in place.
+
+The assessor inspected Integal's Security Policy and validated that a formal policy is in place and was last updated and approved in February 2021.
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inspection of evidence.
+
+Evidence referenced:
+Integral Security Policy 2.0.pdf [Stage 5] 
+New Security Text 0121.pdf [Stage 5] 
+",Attached policy document,No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,,
+"IRC005: Does your company continuously review, research, and identify information security controls and update policies accordingly?
+",Yes,Integral Development 2020 SOC 1 and ISAE 3402 Type 2 Report.pdf [Stage 5](file),"Integral Development Corporation does continuously review, research, and identify information security controls and update policies accordingly.
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response.
+
+","Audited as part of SOC. (Reference Pg 31, Control# 3.13)",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,,
+"IRC006: Does your company have a process to communicate your Information Security Policy to all your employees/contractors and obtain an acknowledgement of the policy?
+
+If yes, please describe.
+Artifact Required : Sample employee acknowledgement of Information security policy",Yes,03-02 Employee Handbook.pdf [Stage 5](file),"Integral Development Corporation does have a process to communicate its information security policy to all its employees/contractors and obtain an acknowledgement of the policy in place.
+
+Integral has an Employee Handbook that must be acknowledged by all employees. The Employee Handbook contains Information Security Policy references. 
+
+The assessor inspected an Employee Handbook and validated that employees must sign and acknowledge the handbook.
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inspection of evidence.
+
+Evidence referenced:
+03-02 Employee Handbook.pdf [Stage 5] 
+",Employee handbook,No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,,
+"IRC007: Does your company have an information security department with defined roles and responsibilities?
+",Yes,,"Integral Development Corporation does have an information security department with defined roles and responsibilities in place.
+
+
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response.
+
+",,No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,,
