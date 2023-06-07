@@ -42,7 +42,10 @@ if "responses" not in st.session_state:
 if "requests" not in st.session_state:
     st.session_state["requests"] = []
 
-llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0.3)
+if "temp" not in st.session_state:
+    st.session_state["temp"] = ""
+
+llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0.2)
 
 if "buffer_memory" not in st.session_state:
     st.session_state.buffer_memory = ConversationBufferWindowMemory(
@@ -52,8 +55,9 @@ if "buffer_memory" not in st.session_state:
 
 system_msg_template = SystemMessagePromptTemplate.from_template(
     template="""
-        You are an AI assistant working for Integral, the world's currency technology partner.
+        You are an AI assistant working for Integral, the world's currency technology partner. You will respond on behalf of the company.
         While you can draw on some information from the previous conversation, it is crucial that you use the following pieces of context to answer the question at the end.
+        Go through all the context before answering the question.
         If you don't know the answer, just say you don't know. DO NOT try to make up an answer.
         If the question is not related to the context, politely respond that you are tuned to only answer questions that are related to the context.
     """
@@ -80,9 +84,14 @@ response_container = st.container()
 # container for text box
 textcontainer = st.container()
 
+def submit_query():
+    st.session_state["temp"] = st.session_state["input"]
+    st.session_state["input"] = ''
+
 
 with textcontainer:
-    query = st.text_input("Query: ", key="input")
+    st.text_input("Query: ", key="input", on_change=submit_query)
+    query = st.session_state.temp
     if query:
         with st.spinner("typing..."):
             conversation_string = get_conversation_string()
