@@ -23,7 +23,7 @@ pinecone.init(
     environment=os.getenv("PINECONE_ENVIRONMENT"),
 )
 
-# openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("OPENAI_API_KEY")
 index = Pinecone.from_documents(
     documents=split_docs,
     embedding=OpenAIEmbeddings(),
