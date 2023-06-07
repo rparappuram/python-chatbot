@@ -1,0 +1,236 @@
+Question,Integral Response,Control Observations/Comments,Attachment(s),Additional Control Observations,Assessor Observations,Observation Type,Question Requirement,Additional Comments,Attachment(s),Updated observation,Updated Assessor Comments,,,,,,,,,,,,,,,
+"ENC001: Does your company have an Encryption Policy or Standard?
+
+If yes, please attach.
+Artifact Required: Encryption Policy
+
+Design Elements:
+1. Scope including data at rest, in transit (external and internal) and backup files
+2. Requirements for when and how encryption is required by data type
+3. Requirements that use of non- encryption methods, or compensating controls instead of encryption, are approved by technology or information security management
+4. Requirements for monitoring controls to enforce compliance to encryption requirements
+5. Requirements for risk acceptance/escalation of variations from policy
+6. Encryption key storage",Yes,,Encryption Key Management and Certificate Management Policy.pdf [Stage 5](file),"Integral Development Corporation does have an encryption policy or standard in place.
+
+
+
+However, the following design elements are not in place: 
+3. Requirements that use of non- encryption methods, or compensating controls instead of encryption, are approved by technology or information security management
+4. Requirements for monitoring controls to enforce compliance to encryption requirements
+5. Requirements for risk acceptance/escalation of variations from policy
+
+The following design elements are in place:
+1. Scope including data at rest, in transit (external and internal) and backup files
+    Encryption Key Management and Certificate Management Policy.pdf [Stage 5] - Page 2
+
+2. Requirements for when and how encryption is required by data type
+    Encryption Key Management and Certificate Management Policy.pdf [Stage 5] - Page 2
+
+6. Encryption key storage
+    Encryption Key Management and Certificate Management Policy.pdf [Stage 5] - Page 1
+
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response.
+
+Evidence referenced:
+Encryption Key Management and Certificate Management Policy.pdf [Stage 5] 
+",Observation Noted,Design Gap,In Scope,Assesor's observation is duly noted.,,Design Gap,"Design Elements 3-5 are not captured in ""Encryption Key Management and Certificate Management Policy.pdf [Stage 5]"".",,,,,,,,,,,,,,,
+"ENC002: Does your company encrypt laptops and desktop hard drives using a minimum of 256-bit AES encryption (or its equivalent)?
+
+If yes, please describe any tools used and encryption algorithms/strength.
+Artifact Required:
+Evidence showing encryption of laptops/desktop hard drives",Yes,,Encryption Key Management and Certificate Management Policy.pdf [Stage 5](file),"Integral Development Corporation does encrypt laptops and desktop hard drives using a minimum of 256-bit AES encryption (or its equivalent).
+
+Bitlocker is used and AES 256 encryption is used for full disk encryption. 
+
+The assessor observed an example laptop and validated that Bitlocker was installed for FDE with AES 256 encryption.
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response, inquiry with Seeja Jiju, Program Manger on 07/23/2021 and observation of evidence.
+
+Evidence referenced:
+Bitlocker FDE - Documents were not retained but inspected and validated remotely.
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,,
+"ENC003: Does your company encrypt all applicable confidential data and media (data at rest, in transit, removable media, backups, etc.) using an acceptable encryption method?
+
+If yes, please describe any tools used and encryption algorithms/strength.
+Artifact Required:  
+Evidence showing encryption of removable media;
+Evidence validating data is encrypted at rest in databases;
+Evidence validating data is encrypted at rest in disk storage;
+Evidence validating backup data and tapes is encrypted",Yes,,"Encryption Key Management and Certificate Management Policy.pdf [Stage 5](file)
+Integral Security Policy 2.0.pdf [Stage 5](file)","Integral Development Corporation does encrypt all applicable confidential data and media (data at rest, in transit, removable media, backups, etc.) using an acceptable encryption method.
+
+
+
+All data at rest, backups and removable media are encrypted using AES 256 and in transit using TLS 1.1. Integral is in the process of transitioning to TLS 1.2. 
+
+Integral was unable to provide evidence to validate the control requirements.
+
+Assessor work steps: 
+The assessor's comments were completed through inquiry with Seeja Jiju, Program Manger on 07/23/2021.
+
+",Observation Noted,Evidence Gap,In Scope,"These screenshots were shared. Need to confirm with auditors why gap is mentioned. screenshot of harddrive encryption and transit encryption: https://drive.google.com/file/d/180kdDyN4ZixKPfSGuTtZWrwCfz6nOfu8/view?usp=sharing
+https://drive.google.com/file/d/15yMGGRnnIZPwOFcmZn9_vB5-_D-sPBrZ/view?usp=sharing",,Evidence Gap,"""ENC003_ FXI APP_encryption_TLS_screenshot.png [Stage 13]"" and
+""ENC003- Hard Drive encryption.jpg [Stage 13]"" Evidence is not sufficient to close this observation. Hard drive encryption does not show encryption algorithm used. Evidence for removeable media, backup data/tapes and data at rest in databases was not provided for review. Observation remains. ",,,,,,,,,,,,,,,
+"ENC004: Does your company encrypt data transmission on external networks (including application traffic) using strong cryptography and security protocols (e.g., TLS 1.2 or greater, IPSEC, or SSH)? 
+
+If yes, please describe the encryption algorithms and strength.
+Artifact Required: Evidence validating data is encrypted during transmission across external networks.
+
+Design Elements:
+1. Minimum TLS 1.2 (or its equivalent) is in use when transmitting data across open networks.
+2. The following protocols have been eliminated.
+  -- Encryption Algorithms: RC2, RC4, RC5, DES, 2DES, Blowfish, IDEA 
+  -- Session-Level Encryption Schemes: SSL ver 2.0, SSL ver 3.0,  TLS ver 1.0""
+  -- Options to disable encryption: NULL encryption (eNULL)
+  -- Known vulnerable TLS options: TLS-level Compression 
+  -- DIGEST & HASH FUNCTIONS:: SHA-1, SHA-224, Truncated HMAC extension,  
+  -- AUTHENTICATION METHODS:: Anonymous Authentication (aNULL), 
+  -- Weak Private Keys:: RSA keys 1024 and below",Yes,,,"Integral Development Corporation does not encrypt data transmission on external networks (including application traffic) using strong cryptography and security protocols (e.g., TLS 1.2 or greater, IPSEC, or SSH).
+
+All data at rest is encrypted using AES 256 and in transit using TLS 1.1. Integral is in the process of transitioning to TLS 1.2. 
+
+Integral was unable to provide evidence to validate the control.
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inquiry with Seeja Jiju, Program Manger on 07/23/2021.
+
+",Observation Noted,Control Gap,In Scope,"Integral is unclear as to Assesor's observation, see e.g.  https://drive.google.com/file/d/180kdDyN4ZixKPfSGuTtZWrwCfz6nOfu8/view?usp=sharing",,No Observation Noted,,,,,,,,,,,,,,,,
+"ENC005: Does your company have an Encryption Key Management policy or procedure?
+
+If yes, please attach.
+Artifact Required: Encryption Key Management procedure
+
+Design Elements:
+ 1. Maximum key life provisions (key rotation)
+ 2. Procedures regarding the replacement of encryption keys and keying materials when the compromise of a key is known or suspected or when an end user with key knowledge separates
+3. Procedures supporting segregation of duties for key management
+4. Adoption and decommissioning schedules for keys 
+5. Requirements to prohibit use of the same encryption key/certificate between production and non-production",Yes,,Encryption Key Management and Certificate Management Policy.pdf [Stage 5](file),"Integral Development Corporation does have an Encryption Key Management policy or procedure in place.
+
+
+
+However, the following design elements are not in place: 
+4. Adoption and decommissioning schedules for keys 
+5. Requirements to prohibit use of the same encryption key/certificate between production and non-production
+
+The following design elements are in place:
+ 1. Maximum key life provisions (key rotation)
+    Encryption Key Management and Certificate Management Policy.pdf [Stage 5] - Page 1
+
+ 2. Procedures regarding the replacement of encryption keys and keying materials when the compromise of a key is known or suspected or when an end user with key knowledge separates
+    Encryption Key Management and Certificate Management Policy.pdf [Stage 5] - Page 1
+
+3. Procedures supporting segregation of duties for key management
+    Encryption Key Management and Certificate Management Policy.pdf [Stage 5] - Page 1
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and observation of evidence.
+
+Evidence referenced:
+Encryption Key Management and Certificate Management Policy.pdf [Stage 5] 
+",Observation Noted,Design Gap,In Scope,Assesor's observation is duly noted.,,Design Gap,"Design Elements 4 and 5 are not covered in ""Encryption Key Management and Certificate Management Policy.pdf [Stage 5]"".",,,,,,,,,,,,,,,
+"ENC006: Does your company protect keys used to encrypt data (e.g., key encrypting keys) against disclosure and misuse while at rest or in transit?
+
+If yes, please describe how these keys are protected.
+",Yes,Follow as per the encryption policy.,,"Integral Development Corporation does protect keys used to encrypt data (e.g., key encrypting keys) against disclosure and misuse while at rest or in transit.
+
+Integral protects encryption keys by implementing access control permissions in place. Only authorized personnel have access to keys. Integral manages encryption keys. 
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inquiry with Seeja Jiju, Program Manger on 07/23/2021.
+
+Evidence referenced:
+Encryption Key Management and Certificate Management Policy.pdf [Stage 5] 
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,,
+"ENC007: Does your company require centralized key-recovery functions for all encryption processes supporting service offerings (e.g., any application using encryption services) including procedures to ensure segregation of duties (two individuals) are required to recover keys?
+",Not Applicable,Follow as per the encryption policy.,,"Integral Development Corporation does include centralized key-recovery functions for all encryption processes supporting service offerings (e.g., any application using encryption services) including procedures to ensure segregation of duties (two individuals) are required to recover keys.
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inquiry with Seeja Jiju, Program Manger on 07/23/2021.
+
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,,
+"ENC008: Does your company rely on a certification authority (internal or external) to generate digital certificates?  
+
+If yes, please describe the authorities used.
+Artifact Required: Observation of Digital Certificate (s)
+
+Design Elements:
+1. Issuing authority
+2. Expiration date / revocation date
+3. Algorithm Key length",Yes,Certificate issued by CloudFlare and GoDaddy,Go Daddy SSL Certificate(private),"Integral Development Corporation does rely on a certification authority (internal and/or external) to generate digital certificates.
+
+Certificates are issued by CloudFlare and GoDaddy
+
+The following design elements are in place:
+1. Issuing authority - Go Daddy
+    Go Daddy SSL Certificate - Screenshot
+
+2. Expiration date / revocation date - 7/30/2022
+    Go Daddy SSL Certificate - Screenshot
+
+3. Algorithm Key length - SHA256
+    Go Daddy SSL Certificate - Screenshot
+
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response, inquiry with Seeja Jiju, Program Manger on 07/23/2021 and observation of evidence.
+
+Evidence referenced:
+Go Daddy SSL Certificate - Documents were not retained but inspected and validated remotely.
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,,
+"ENC009: Does your company use a physical Hardware Security Module (HSM) to protect encryption keys?
+",Yes,,,"Integral Development Corporation does use a physical Hardware Security Module (HSM) to protect encryption keys.
+
+
+
+This is an informational only question.
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response.
+
+",No Observation Noted,,In Scope,,,,,,,,,,,,,,,,,,,
+"ENC010: If applicable, does your company confirm that cloud service customer data is encrypted using unique encryption keys?
+",Yes,,,"This control is not applicable
+
+Integral does not provide cloud services.
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inquiry with Seeja Jiju, Program Manger on 07/23/2021.
+
+",Not Applicable,,In Scope,,,,,,,,,,,,,,,,,,,
+"ENC011: If applicable, does your company have an encryption Key Management System (KMS) solution to support cloud service customer managed encryption keys?
+",Yes,,,"This control is not applicable
+
+Integral does not use cloud services.
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response.
+
+",Not Applicable,,In Scope,,,,,,,,,,,,,,,,,,,
+"ENC012: If applicable, does your company prevent storage of any cloud service encryption keys on any persistent storage device?
+
+If yes, please describe.
+Artifact Required: Configuration examples to prevent encryption keys from being stored on persistent devices",No,,,"This control is not applicable
+
+Integral does not use cloud services.
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response.
+
+",Not Applicable,,In Scope,,,,,,,,,,,,,,,,,,,
