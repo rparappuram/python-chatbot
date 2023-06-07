@@ -1,7 +1,16 @@
+from langchain.chat_models import ChatOpenAI
+from langchain.chains import ConversationChain
+from langchain.chains.conversation.memory import ConversationBufferWindowMemory
+from langchain.prompts import (
+    SystemMessagePromptTemplate,
+    HumanMessagePromptTemplate,
+    ChatPromptTemplate,
+    MessagesPlaceholder,
+)
 import streamlit as st
 from streamlit_chat import message
-from streamlit_extras.colored_header import colored_header
 from streamlit_extras.add_vertical_space import add_vertical_space
+from utils import *
 
 st.set_page_config(page_title="Integral AI Assistant")
 st.title("Integral AI Assistant")
@@ -27,48 +36,72 @@ with st.sidebar:
         """
     )
 
-# Generate empty lists for generated and past.
-## generated stores AI generated responses
-if "generated" not in st.session_state:
-    st.session_state["generated"] = ["I'm Integral's AI Assistant, How may I help you?"]
-## past stores User's questions
-if "past" not in st.session_state:
-    st.session_state["past"] = ["Hi!"]
+if "responses" not in st.session_state:
+    st.session_state["responses"] = ["How can I assist you?"]
 
-# Layout of input/response containers
-input_container = st.container()
-colored_header(label="", description="", color_name="blue-30")
+if "requests" not in st.session_state:
+    st.session_state["requests"] = []
+
+llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0.3)
+
+if "buffer_memory" not in st.session_state:
+    st.session_state.buffer_memory = ConversationBufferWindowMemory(
+        k=3, return_messages=True
+    )
+
+
+system_msg_template = SystemMessagePromptTemplate.from_template(
+    template="""
+        You are an AI assistant working for Integral, the world's currency technology partner.
+        While you can draw on some information from the previous conversation, it is crucial that you use the following pieces of context to answer the question at the end.
+        If you don't know the answer, just say you don't know. DO NOT try to make up an answer.
+        If the question is not related to the context, politely respond that you are tuned to only answer questions that are related to the context.
+    """
+)
+
+
+human_msg_template = HumanMessagePromptTemplate.from_template(template="{input}")
+
+prompt_template = ChatPromptTemplate.from_messages(
+    [
+        system_msg_template,
+        MessagesPlaceholder(variable_name="history"),
+        human_msg_template,
+    ]
+)
+
+conversation = ConversationChain(
+    memory=st.session_state.buffer_memory, prompt=prompt_template, llm=llm, verbose=True
+)
+
+
+# container for chat history
 response_container = st.container()
+# container for text box
+textcontainer = st.container()
 
 
-# User input
-## Function for taking user provided prompt as input
-def get_text():
-    input_text = st.text_input("You: ", "", key="input")
-    return input_text
-
-
-## Applying the user input box
-with input_container:
-    user_input = get_text()
-
-
-# Response output
-## Function for taking user prompt as input followed by producing AI generated responses
-def generate_response(prompt):
-    # chatbot = hugchat.ChatBot() # TODO - replace with LLM
-    # response = chatbot.chat(prompt)
-    return "FAKE response"
-
-
-## Conditional display of AI generated responses as a function of user provided prompts
+with textcontainer:
+    query = st.text_input("Query: ", key="input")
+    if query:
+        with st.spinner("typing..."):
+            conversation_string = get_conversation_string()
+            # st.code(conversation_string)
+            refined_query = query_refiner(conversation_string, query)
+            # st.subheader("Refined Query:")
+            # st.write(refined_query)
+            context = get_similar_docs(refined_query)
+            # print(context)
+            response = conversation.predict(
+                input=f"Context:\n {context} \n\n Query:\n{query}"
+            )
+        st.session_state.requests.append(query)
+        st.session_state.responses.append(response)
 with response_container:
-    if user_input:
-        response = generate_response(user_input)
-        st.session_state.past.append(user_input)
-        st.session_state.generated.append(response)
-
-    if st.session_state["generated"]:
-        for i in range(len(st.session_state["generated"])):
-            message(st.session_state["past"][i], is_user=True, key=str(i) + "_user")
-            message(st.session_state["generated"][i], key=str(i))
+    if st.session_state["responses"]:
+        for i in range(len(st.session_state["responses"])):
+            message(st.session_state["responses"][i], key=str(i))
+            if i < len(st.session_state["requests"]):
+                message(
+                    st.session_state["requests"][i], is_user=True, key=str(i) + "_user"
+                )

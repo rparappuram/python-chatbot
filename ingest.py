@@ -44,7 +44,6 @@ def main():
     documents = load_documents(DIR_PATH)
     split_docs = split_documents(documents)
     index = create_vector(split_docs)
-    return index
 
 
 if __name__ == "__main__":
