@@ -12,8 +12,12 @@ Built with [LangChain](https://python.langchain.com/en/latest/index.html), [Open
 ## Resourceful Links
 [Chatbot Answering from Your Own Knowledge Base: Langchain, ChatGPT, Pinecone, and Streamlit: | Code](https://www.youtube.com/watch?v=nAKhxQ3hcMA&list=LL&index=1)
 - Uses SystemMessagePromptTemplate, BufferMemory, and Streamlit
+
+
 [LangChain Crash Course: Build a AutoGPT app in 25 minutes!](https://youtu.be/cVA1RPsGQcw)
 - Uses LLMChain and PromptTemplates
+
+
 [Building a Document-based Question Answering System with LangChain, Pinecone, and LLMs like GPT-4.](https://www.youtube.com/watch?v=cVA1RPsGQcw&list=LL&index=3)
 
 
@@ -21,7 +25,7 @@ Built with [LangChain](https://python.langchain.com/en/latest/index.html), [Open
 There are two components: ingestion and question-answering.
 Ingestion has the following steps:
 1. Pull PDFs from directory
-2. Load PDFs with LangChain's [ReadTheDocs Loader](https://langchain.readthedocs.io/en/latest/modules/document_loaders/examples/readthedocs_documentation.html)
+2. Load PDFs with LangChain's [DirectoryLoader](https://python.langchain.com/en/latest/modules/indexes/document_loaders/examples/file_directory.html)
 3. Split documents with LangChain's [TextSplitter](https://langchain.readthedocs.io/en/latest/reference/modules/text_splitter.html)
 4. Create a vectorstore of embeddings, using LangChain's [vectorstore wrapper](https://python.langchain.com/en/latest/modules/indexes/vectorstores.html) (with OpenAI's embeddings and FAISS vectorstore).
 
