@@ -12,6 +12,7 @@ index = Pinecone.from_existing_index(
 )
 
 
+# formulate a question that would be the most relevant to provide the user with similar docs from Pinecone
 def query_refiner(conversation, query):
     response = openai.Completion.create(
         model="text-davinci-003",
@@ -31,9 +32,13 @@ def get_conversation_string():
     response_length = len(st.session_state["responses"])
     request_length = len(st.session_state["requests"])
     if len(st.session_state["requests"]) != 0:
-        conversation_string += "Human: " + st.session_state["requests"][request_length-1] + "\n"
+        conversation_string += (
+            "Human: " + st.session_state["requests"][request_length - 1] + "\n"
+        )
     if len(st.session_state["responses"]) != 0:
-        conversation_string += "Bot: " + st.session_state["responses"][response_length-1] + "\n"
+        conversation_string += (
+            "Bot: " + st.session_state["responses"][response_length - 1] + "\n"
+        )
     return conversation_string
 
 

@@ -15,6 +15,6 @@ for filename in os.listdir(directory):
         df.to_csv(os.path.join(directory, filename[:-5] + ".csv"), index=False)
         # delete xlsx file
         os.remove(os.path.join(directory, filename))
-    
+
     else:
         continue

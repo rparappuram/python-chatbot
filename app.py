@@ -74,9 +74,10 @@ response_container = st.container()
 # container for text box
 textcontainer = st.container()
 
+
 def submit_query():
     st.session_state["temp"] = st.session_state["input"]
-    st.session_state["input"] = ''
+    st.session_state["input"] = ""
 
 
 with textcontainer:
