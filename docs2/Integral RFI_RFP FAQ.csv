@@ -1,0 +1,300 @@
+Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11,Unnamed: 12,Unnamed: 13,Unnamed: 14,Unnamed: 15,Unnamed: 16,Unnamed: 17,Unnamed: 18,Unnamed: 19,Unnamed: 20,Unnamed: 21,Unnamed: 22,Unnamed: 23,Unnamed: 24,Unnamed: 25
+,AS0002214-740-4856,,,,,,,,,,,,,,,,,,,,,,,,
+,BPQ Version 3.1 Comprehensive,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,Tab color,description,,,,,,,,,,,,,,,,,
+,Section,Answered,Total,% Complete,Integral action,,,For Tim to review the Integral's action/comment,No Gap,Control Gap,Evidence Gap,Design Gap,,total questions,,Total gaps,New gaps,Total question,Gap-old,Score,Gap-new,Projected,,Gaps noted,Gaps noted
+Corporate Oversight and Internal Controls,Business Experience,3,3,1,,,,Pending action for closing gaps,1,0,1,1,0.0,3,0.0,2,2,,,,,,," - However, the following design elements are not in place: 
+2. Policy(ies) prohibiting forced/child labor in your operations and your supply chain
+3. Due diligence processes to assess and address risk of forced/child labor occurring in your operations and your supply chain (e.g. risk assessment, training, supply chain due diligence)
+4. Public reporting/disclosure of current greenhouse gas emissions (Scope 1 and 2)
+5. Public greenhouse gas emissions reduction target (% and date by which target will be achieved) 
+
+ -Integral will not be sharing the financial statements externally and has been marked as Evidence gap."," - However, the following design elements are not in place: 
+2. Policy(ies) prohibiting forced/child labor in your operations and your supply chain
+3. Due diligence processes to assess and address risk of forced/child labor occurring in your operations and your supply chain (e.g. risk assessment, training, supply chain due diligence)
+4. Public reporting/disclosure of current greenhouse gas emissions (Scope 1 and 2)
+5. Public greenhouse gas emissions reduction target (% and date by which target will be achieved) 
+
+ -Integral will not be sharing the financial statements externally and has been marked as Evidence gap."
+,Training,4,4,1,,,,Leaving as is. No action is planned for closing gaps,2,1,0,1,0.0,4,0.0,2,0,20,7,0.65,3,0.85,,," - However, the following design elements are not in place: 
+1. Role-based security training to personnel with assigned security roles and responsibilities.
+2. Includes Social engineering/Phishing
+3. Includes securing individual workstation/desks (e.g., clean desk and locking workstation when stepping away)
+4. Includes information protection (electronic and hard-copy)
+5. Includes security Incident reporting
+6. Includes Business Continuity Responsibilities
+10. Includes Physical security controls and responsibilities
+13. Includes Password Security Training/Awareness & Creating Strong Passwords
+14. Includes Securing mobile devices including BYOD (if implemented)
+15. Sharing Information with 3rd parties
+16. Understanding when and how to use encryption methods
+18. Unauthorized software downloads
+19.  Understanding malware
+
+ - Integral Development Corporation does not provide information security or cybersecurity situational awareness training which includes the appropriate skills and knowledge to evaluate and manage cyber risks, promote a culture that recognizes that staff at all levels have important responsibilities in ensuring the organization's cyber resilience, and lead by example for the company's governing body (e.g., the Board or one of its committees) and senior management.
+"
+,Internal Controls,14,14,1,,,,All good. There are no gaps,10,2,0,1,1.0,14,1.0,3,1,,,,,,," - Integral Development Corporation does not have an Internal Audit Plan or Program for independent validation of the design and operating effectiveness of its internal controls in place.
+Updated to Design Gap. Design Element 3 is not captured in ""IC001- Internal Audit Plan - Policy.pdf [Stage 13]""."," - Integral Development Corporation does not have an Internal Audit Plan or Program for independent validation of the design and operating effectiveness of its internal controls in place.
+ - However, the following design elements are not in place: 
+2. Requirements for a policy inventory and restricting edit abilities
+ - Integral Development Corporation does not have a Regulatory Change Management Policy/Procedure to ensure policies and procedures are aligned to legislative and regulatory requirements for all jurisdictions applicable to the services or products it provides in place."
+Human Resources and General Ethics,Human Resources and General Ethics,8,8,1,,,,action is taken for closing gaps -- mostly missing evidences,6,1,0,1,0.0,8,0.0,2,1,8,2,0.75,1,0.875,," - Integral Development Corporation does not perform economic sanctions screening (e.g., OFAC and OFAC cyber-designated entities) on all employees and subcontractors.
+ This is a requirement of our mutual customers and cannot be marked NA."," - Integral Development Corporation does not perform economic sanctions screening (e.g., OFAC and OFAC cyber-designated entities) on all employees and subcontractors.
+ This is a requirement of our mutual customers and cannot be marked NA."
+Privacy,Privacy,7,7,1,,,,Domains which resulted in 'orange' score,3,0,0,1,3.0,7,3.0,1,0,4,1,0.75,0,1,,," - However, the following design elements are not in place: 
+8. Requirement for notifying clients when you are compelled to disclose their privacy data to government actors or entities - Validated through inquiry. 
+ - However, the following design elements are not in place: 
+2. Confirm via inspection or inquiry that the results meet RTOs and RPOs defined in Test Plan. Document the RTOs and RPOs that were met in the exercise."
+Business Resiliency,Business Continuity,9,9,1,,,,,7,0,0,2,0.0,9,0.0,2,2,9,2,0.7777777778,2,0.7777777778,," - However, the following design elements are not in place: 
+1. Includes description of test objectives and test methods
+2. Covers multiple recovery testing scenarios (i.e., loss of workspace, staff unavailability, data corruption, etc.)
+3. Documented recovery time objective and recovery point objective
+5. Expectations for testing internal and external dependencies
+6. Requirements to test/verify production volumes can be processed in backup environment
+7. Includes requirements for call tree testing
+BC002 - Integral Standard BCP Plan V2.8.pdf [Stage 13] testing section does not cover Design Elements 1-3 and 5-6.
+
+ - However, the following design elements are not in place: 
+2. Confirm via inspection or inquiry that the results meet RTOs and RPOs defined in Test Plan. Document the RTOs and RPOs that were met in the exercise.
+   Design Element 2 is required to be captured in the firm's annual BC/DR plan."," - However, the following design elements are not in place: 
+1. Includes description of test objectives and test methods
+2. Covers multiple recovery testing scenarios (i.e., loss of workspace, staff unavailability, data corruption, etc.)
+3. Documented recovery time objective and recovery point objective
+5. Expectations for testing internal and external dependencies
+6. Requirements to test/verify production volumes can be processed in backup environment
+7. Includes requirements for call tree testing"
+Information and Cyber Security,Physical and Environmental,10,10,1,,,,,7,2,1,0,0.0,10,0.0,3,1,,,,,,," - However, the following design elements are not in place: 
+1. Criteria for determining risk level of facility based on the activities in each location
+2. Requirements for physical access including Health and Safety requirements
+3. Requirements for perimeter security
+4. References the incident management policies and procedures in the event of a breach
+5. Requirements for physical threat assessment (e.g., natural disasters, civil unrest)
+  Physical Security policy covering all design elements is not in place."," - However, the following design elements are not in place: 
+1. Criteria for determining risk level of facility based on the activities in each location
+2. Requirements for physical access including Health and Safety requirements
+3. Requirements for perimeter security
+4. References the incident management policies and procedures in the event of a breach
+5. Requirements for physical threat assessment (e.g., natural disasters, civil unrest)
+
+- Integral Development Corporation does not conduct a formal access-level review of physical access control lists.
+"
+,Media and Vital Records,3,3,1,,,,,3,0,0,0,0.0,3,0.0,0,0,164,37,0.7743902439,21,0.8719512195,,,
+,Inventory Control,0,0,,,,,,0,0,0,0,0.0,0,0.0,0,0,,,,,,,,
+,Customer Facing,0,0,,,,,,0,0,0,0,0.0,0,0.0,0,0,,,,,,,,
+,Third Party Reliance,10,10,1,,,,,6,1,0,3,0.0,10,0.0,4,4,,,,,,," - However, the following design elements are not in place: 
+2.  Description of services
+3.  Data handled by each
+4.  Primary/Secondary Delivery Services Addresses
+
+Updated Design Element 2 to in place. Design Elements 3 and 4 are not captured in a formal inventory.
+
+- Integral Development Corporation does not have a Supplier Diversity and Inclusion Policy/Program in place.
+
+ Updated to Design Gap. Design Elements 2, 7 and 12 are not captured in ""NDA signature copy 082011.pdf [Stage 5]"".
+
+Formal supplier diversity program is required to close this observation. Program/policy should include: 
+1. Categories/definitions of recognized diversity classifications (Example: women owned business enterprise)
+2. Supplier diversity commitments, goals, or external recognition
+3. Direct procurement spend with diverse suppliers ($ USD and % of overall procurement spend)
+
+- Integral Development Corporation does not perform regular due diligence or assessments as part of its Third Party Management Process.
+
+ Updated to Design Gap. Design Element 4 is not captured in ""Integral's review of Equinix SOC - 2021 attestation.pdf [Stage 9] "".
+
+- Integral Development Corporation does not have a standard contract template(s) and/or Security Requirement which is required to be used with its third parties or subcontractors in place.
+   Updated to Design Gap. Design Elements 2, 7 and 12 are not captured in ""NDA signature copy 082011.pdf [Stage 5]""."," - However, the following design elements are not in place: 
+2.  Description of services
+3.  Data handled by each
+4.  Primary/Secondary Delivery Services Addresses
+
+- Integral Development Corporation does not have a Supplier Diversity and Inclusion Policy/Program in place.
+- Integral Development Corporation does not perform regular due diligence or assessments as part of its Third Party Management Process.
+- Integral Development Corporation does not have a standard contract template(s) and/or Security Requirement which is required to be used with its third parties or subcontractors in place.
+"
+,Enterprise Data Management,5,5,1,,,,,3,1,0,1,0.0,5,0.0,2,2,,,,,,," - However, the following design elements are not in place: 
+2.  Information security controls increase in strength as the sensitivity of the data classification increases  
+3.  Specific requirements for personal/ private information in compliance with regulatory requirements
+4. Information owner definition and responsibilities
+5. Data transformation, aggregated, de-identified, derivatives of or alterations of Financial Institution Data (New Data) as part of the agreed upon services
+
+ Compliance Manual (April 2021).pdf [Stage 9] and PRV001 - Integral _ Privacy Policy.pdf [Stage 13] do not cover Design Elements 2 and 4.
+
+ - Integral Development Corporation does not have data labeling and handling procedures for each classification scheme in place.
+ Data labeling and handling procedure for each classification scheme is required to close."," - However, the following design elements are not in place: 
+2.  Information security controls increase in strength as the sensitivity of the data classification increases  
+3.  Specific requirements for personal/ private information in compliance with regulatory requirements
+4. Information owner definition and responsibilities
+5. Data transformation, aggregated, de-identified, derivatives of or alterations of Financial Institution Data (New Data) as part of the agreed upon services
+ - Integral Development Corporation does not have data labeling and handling procedures for each classification scheme in place."
+,Data Loss Prevention,6,6,1,,,,,5,1,0,0,0.0,6,0.0,1,1,,,,,,,"Integral Development Corporation does not have DLP tools and/or controls installed to monitor encrypted and unencrypted email, password protected/encrypted attachments, egress points and removable media to prevent unauthorized disclosure of its customer data.
+
+Integral does not utilize DLP tools. The ‘write’ option on all USB ports on any system that is connected to the corporate network has been disabled through Group Policy. Cloud file sharing sites are all blocked through a web proxy. ","Integral Development Corporation does not have DLP tools and/or controls installed to monitor encrypted and unencrypted email, password protected/encrypted attachments, egress points and removable media to prevent unauthorized disclosure of its customer data.
+
+Integral does not utilize DLP tools. The ‘write’ option on all USB ports on any system that is connected to the corporate network has been disabled through Group Policy. Cloud file sharing sites are all blocked through a web proxy. "
+,Information Security Risk and Compliance,7,7,1,,,,,5,1,1,0,0.0,7,0.0,2,2,,,,,,," -The following design elements are in place:
+1. Scope of exception - Validated through inquiry, exceptions go through the change management process. ZenDesk ticketing system is used. 
+2. Expiry details  - Validated through inquiry. 
+3. Approved by authorized personnel - Validated through inquiry. 
+ 
+The attached evidence shows a user access review and does not cover the information security exception register required to close this observation. Sample ZenDesk policy exception required to close.
+
+ - Integral Development Corporation does not perform an information security risk assessment or Threat and Vulnerability Risk Assessment (TVRA) on its data and key process.
+
+ Formal internal Information Security Risk Assessment (SOC Audit is an external assessment) is required to close and must capture the following:
+1. Scope of the risk assessment
+2. Date of risk assessment
+3. Documentation of the risk assessment results
+4. Review of the risk assessment results
+5. Dissemination of risk assessment results to stakeholders
+6. Assess / Update the information security risks and security controls applicable to the information asset and its environment of operation on a regularly scheduled basis or whenever there are significant changes."," -The following design elements are in place:
+1. Scope of exception - Validated through inquiry, exceptions go through the change management process. ZenDesk ticketing system is used. 
+2. Expiry details  - Validated through inquiry. 
+3. Approved by authorized personnel - Validated through inquiry. 
+
+ - Integral Development Corporation does not perform an information security risk assessment or Threat and Vulnerability Risk Assessment (TVRA) on its data and key process.
+"
+,Acceptable Use of Technology,3,3,1,,,,,3,0,0,0,0.0,3,0.0,0,0,,,,,,,,
+,Logical Access Management,23,23,1,,,11,,18,0,0,4,1.0,23,1.0,4,2,,,,,,," - However, the following design elements are not in place: 
+2. Monitoring
+3. Expiration
+4. Use of tools that enforce account password change after each use
+ - However, the following design elements are not in place: 
+5. Forced log out when time limit exceeded","- However, the following design elements are not in place: 
+2. Requirements for provisioning principles (role based, least privilege)
+ -However, the following design elements are not in place: 
+3. Maximum password age - minimum of 3 days
+6. User lock out on failed attempts  - a maximum of 5 failed attempts
+7. Temporary passwords valid for a defined period
+ - However, the following design elements are not in place: 
+2. Monitoring
+3. Expiration
+4. Use of tools that enforce account password change after each use
+ - However, the following design elements are not in place: 
+5. Forced log out when time limit exceeded"
+,Threat and Vulnerability Management,15,15,1,,,41,,12,3,0,0,0.0,15,0.0,3,0,,,,,,,," - Integral Development Corporation does not conduct application penetration tests prior to production use and at least every 12 months for all web applications (both internally and externally facing) which store, process, or transfer customer or confidential data.
+  - Integral Development Corporation does not perform application vulnerability scans and/or penetration tests after each significant change.
+ - Integral Development Corporation does not have a process to rescan findings from vulnerability scans/penetration tests until no critical or high-risk findings are identified in place.
+"
+,Systems Configuration and Management,10,10,1,,,,,7,2,1,0,0.0,10,0.0,3,1,,,,,,," - There is no tool that is continuously scanning for any deviations. There is alerting from Crowdstrike for any malicious behavior. 
+
+There is no tool that is continuously scanning for any deviations from the firm's security policy."," - Integral Development Corporation does use standard security (hardening) configurations on operating systems, applications, laptops, desktops, and virtual machines.
+ - Integral Development Corporation does not have a patch management policy or procedure in place.
+ - Integral Development Corporation does not scan systems (e.g., midrange operating systems, databases, laptops, workstations, switches, routers) to identify deviations from the security policy (e.g., baseline misconfigurations, missing patches, end of life software/versions).
+
+ - There is no tool that is continuously scanning for any deviations. There is alerting from Crowdstrike for any malicious behavior. "
+,Network Management,21,21,1,,,0.2682926829,,16,3,1,1,0.0,21,0.0,5,4,,,,,,," - Evidence referenced:
+Network Overview - Documents were not retained but inspected and validated remotely.
+ - Integral Development Corporation does not have a procedure that covers firewall user provisioning, deprovisioning and annual recertification in place.
+ - Integral Development Corporation does physically and/or logically separate development, test and production system(s) to reduce the risks of unauthorized access or changes to the production system(s). Integral was unable to provide evidence to validate the control requirement.
+ - Integral Development Corporation does not enforce production environment security controls in non-production environments.
+
+ - Integral Development Corporation does not have a wireless policy in place.
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inquiry with Seeja Jiju, Program Manager on 07/23/2021.
+    Updated to Design Gap. Design Elements 1 and 3 are not captured in ""NM002 - Integral Security Policy.pdf [Stage 13]""."," - Integral Development Corporation does have a network diagram depicting use of firewalls to define a logical network perimeter, security zones, and enclaves.
+However, the following design elements are not in place: 
+3. Date and approval
+
+ - Evidence referenced:
+Network Overview - Documents were not retained but inspected and validated remotely.
+ - Integral Development Corporation does not have a procedure that covers firewall user provisioning, deprovisioning and annual recertification in place.
+ - Integral Development Corporation does physically and/or logically separate development, test and production system(s) to reduce the risks of unauthorized access or changes to the production system(s). Integral was unable to provide evidence to validate the control requirement.
+ - Integral Development Corporation does not enforce production environment security controls in non-production environments.
+
+ - Integral Development Corporation does not have a wireless policy in place.
+
+
+
+Assessor work steps: 
+The assessor's comments were completed through review of the Third Party response and inquiry with Seeja Jiju, Program Manager on 07/23/2021.
+
+""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"
+,Mobile Computing,3,3,1,,,,,3,0,0,0,0.0,3,0.0,0,0,,,,,,,,
+,Logging and Monitoring,9,9,1,,,0.2682926829,,8,0,0,1,0.0,9,0.0,1,1,,,,,,," - Integral Development Corporation does not have a logging and monitoring policy or standard in place.
+ Updated to Design Gap. Design Element 3 is not captured in ""LM001 - System Monitoring and Alerting Process.pdf [Stage 13]""."," - Integral Development Corporation does not have a logging and monitoring policy or standard in place.
+"
+,Incident Management,5,5,1,,,,,1,1,2,1,0.0,5,0.0,4,0,,,,,,,," - However, the following design elements are not in place: 
+7. Requirements for document retention according to laws
+- Integral was unable to provide evidence of a sample incident ticket. 
+ - Integral Development Corporation does not have a forensic evidence framework in place.
+"
+,Change Management,4,4,1,,,73.17,,4,0,0,0,0.0,4,0.0,0,0,,,,,,,,
+,Software Development Management and Lifecycle,17,17,1,,,,,17,0,0,0,0.0,17,0.0,0,0,,,,,,,,
+,Encryption,11,11,1,,,,,4,1,1,2,3.0,11,3.0,4,3,,,,,,," - However, the following design elements are not in place: 
+3. Requirements that use of non- encryption methods, or compensating controls instead of encryption, are approved by technology or information security management
+4. Requirements for monitoring controls to enforce compliance to encryption requirements
+5. Requirements for risk acceptance/escalation of variations from policy
+
+Design Elements 3-5 are not captured in ""Encryption Key Management and Certificate Management Policy.pdf [Stage 5]"".
+
+ - Integral Development Corporation does encrypt all applicable confidential data and media. Integral was unable to provide evidence to validate the control requirements.
+
+""ENC003_ FXI APP_encryption_TLS_screenshot.png [Stage 13]"" and
+""ENC003- Hard Drive encryption.jpg [Stage 13]"" Evidence is not sufficient to close this observation. Hard drive encryption does not show encryption algorithm used. Evidence for removeable media, backup data/tapes and data at rest in databases was not provided for review. Observation remains. 
+
+ - Integral Development Corporation does have an Encryption Key Management policy or procedure in place. However, the following design elements are not in place: 
+4. Adoption and decommissioning schedules for keys 
+5. Requirements to prohibit use of the same encryption key/certificate between production and non-production.
+
+Design Elements 4 and 5 are not covered in ""Encryption Key Management and Certificate Management Policy.pdf [Stage 5]""."," - However, the following design elements are not in place: 
+3. Requirements that use of non- encryption methods, or compensating controls instead of encryption, are approved by technology or information security management
+4. Requirements for monitoring controls to enforce compliance to encryption requirements
+5. Requirements for risk acceptance/escalation of variations from policy
+
+ - Integral Development Corporation does encrypt all applicable confidential data and media. Integral was unable to provide evidence to validate the control requirements.
+ - Integral Development Corporation does not encrypt data transmission on external networks (including application traffic) using strong cryptography and security protocols (e.g., TLS 1.2 or greater, IPSEC, or SSH).
+Integral was unable to provide evidence to validate the control.
+ - Integral Development Corporation does have an Encryption Key Management policy or procedure in place. However, the following design elements are not in place: 
+4. Adoption and decommissioning schedules for keys 
+5. Requirements to prohibit use of the same encryption key/certificate between production and non-production.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"
+,Cloud Computing,0,0,,,,,,0,0,0,0,0.0,0,0.0,0,0,,,,,,,,
+,Technology Asset Management,6,6,1,,,,,5,0,0,1,0.0,6,0.0,1,0,,,,,,,," - Integral Development Corporation does have a technology asset disposal procedure for the disposal, reuse, or repair of electronic media (e.g., hardware, end-user devices, tapes, disk drives, multifunction devices, copiers) in place. However, the following design elements are not in place: 
+3. Process in place to ensure devices are protected when data cannot be removed."
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,213,,,,,,,,,,,,,49,27,,,,,,,,

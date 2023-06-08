@@ -25,16 +25,6 @@ with st.sidebar:
         It can answer questions about Integral's products and services.
         """
     )
-    add_vertical_space(2)
-    st.markdown(
-        """
-            This app is an LLM-powered chatbot built using:
-            - [LangChain](https://python.langchain.com/en/latest/index.html)
-            - [OpenAI](https://openai.com/blog/openai-api)
-            - [Pinecone](https://www.pinecone.io/)
-            - [Streamlit](https://streamlit.io/)
-        """
-    )
 
 if "responses" not in st.session_state:
     st.session_state["responses"] = ["How can I assist you?"]
