@@ -10,6 +10,9 @@ from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv())
 
 
+DIR_PATH = "docs/udyan"
+
+
 # load documents from directory
 def load_documents(directory_path):
     print("Loading documents...")
@@ -44,6 +47,7 @@ def main():
     documents = load_documents(DIR_PATH)
     split_docs = split_documents(documents)
     index = create_vector(split_docs)
+    print("Ingestion complete!")
 
 
 if __name__ == "__main__":

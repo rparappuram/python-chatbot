@@ -15,16 +15,6 @@ from utils import *
 st.set_page_config(page_title="Integral AI Assistant")
 st.title("Integral AI Assistant")
 
-# Sidebar contents
-with st.sidebar:
-    st.title("⛁ Document Search")
-    st.markdown(
-        """
-        ## About
-        This AI Assistant is trained on Integral's product documentation and RFPs.
-        It can answer questions about Integral's products and services.
-        """
-    )
 
 if "responses" not in st.session_state:
     st.session_state["responses"] = ["How can I assist you?"]
@@ -100,8 +90,8 @@ with textcontainer:
 with response_container:
     if st.session_state["responses"]:
         for i in range(len(st.session_state["responses"])):
-            message(st.session_state["responses"][i], key=str(i))
+            message(st.session_state["responses"][i], avatar_style="icons", seed="Felix",key=str(i))
             if i < len(st.session_state["requests"]):
                 message(
-                    st.session_state["requests"][i], is_user=True, key=str(i) + "_user"
+                    st.session_state["requests"][i], is_user=True, avatar_style="icons", seed="Aneka", key=str(i) + "_user"
                 )
