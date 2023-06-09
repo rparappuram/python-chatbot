@@ -9,18 +9,6 @@ Built with [LangChain](https://python.langchain.com/en/latest/index.html), [Open
 3. Run `app.py` to run the Integral chatbot
 
 
-## Resourceful Links
-[Chatbot Answering from Your Own Knowledge Base: Langchain, ChatGPT, Pinecone, and Streamlit: | Code](https://www.youtube.com/watch?v=nAKhxQ3hcMA&list=LL&index=1)
-- Uses SystemMessagePromptTemplate, BufferMemory, and Streamlit
-
-
-[LangChain Crash Course: Build a AutoGPT app in 25 minutes!](https://youtu.be/cVA1RPsGQcw)
-- Uses LLMChain and PromptTemplates
-
-
-[Building a Document-based Question Answering System with LangChain, Pinecone, and LLMs like GPT-4.](https://www.youtube.com/watch?v=cVA1RPsGQcw&list=LL&index=3)
-
-
 ## Technical description
 There are two components: ingestion and question-answering.
 Ingestion has the following steps:

@@ -1,6 +1,6 @@
 import os
 from config import *
-from langchain.document_loaders import DirectoryLoader
+from langchain.document_loaders import DirectoryLoader, WebBaseLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import Pinecone
@@ -11,13 +11,15 @@ load_dotenv(find_dotenv())
 
 
 DIR_PATH = "docs/udyan"
+WEBSITES = [line.rstrip("\n") for line in open("docs/websites.txt")]
 
 
 # load documents from directory
-def load_documents(directory_path):
+def load_documents(directory_path, websites):
     print("Loading documents...")
-    loader = DirectoryLoader(directory_path)  # maybe use different loader
-    documents = loader.load()
+    loader1 = DirectoryLoader(directory_path)  # maybe use different loader
+    loader2 = WebBaseLoader(websites)
+    documents = loader1.load() + loader2.load()
     return documents
 
 
@@ -44,7 +46,7 @@ def create_vector(split_docs):
 
 
 def main():
-    documents = load_documents(DIR_PATH)
+    documents = load_documents(DIR_PATH, WEBSITES)
     split_docs = split_documents(documents)
     index = create_vector(split_docs)
     print("Ingestion complete!")
