@@ -1,6 +1,6 @@
 import os
 from config import *
-from langchain.document_loaders import DirectoryLoader
+from langchain.document_loaders import DirectoryLoader, WebBaseLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import Pinecone
@@ -10,13 +10,15 @@ from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv())
 
 
-DIR_PATH = "docs/udyan"
+DIR_PATH = "docs/AIAssistent_Data"
+WEBSITES = "temp"
 
 
 # load documents from directory
 def load_documents(directory_path):
     print("Loading documents...")
-    loader = DirectoryLoader(directory_path)  # maybe use different loader
+    loader = DirectoryLoader(directory_path)
+    # loader = WebBaseLoader(directory_path)
     documents = loader.load()
     return documents
 

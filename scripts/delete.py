@@ -12,6 +12,6 @@ stats = index.describe_index_stats()
 namespaces = stats["namespaces"].keys()
 
 for namespace in namespaces:
-    print(namespace)
     if namespace not in namespaces_to_keep:
+        print(f"Deleting namespace {namespace}")
         index.delete(delete_all=True, namespace=namespace)
