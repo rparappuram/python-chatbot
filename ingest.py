@@ -1,6 +1,6 @@
 import os
 from config import *
-from langchain.document_loaders import DirectoryLoader, WebBaseLoader
+from langchain.document_loaders import DirectoryLoader, WebBaseLoader, WebBaseLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import Pinecone
@@ -15,7 +15,7 @@ WEBSITES = "temp"
 
 
 # load documents from directory
-def load_documents(directory_path):
+def load_documents(directory_path, websites):
     print("Loading documents...")
     loader = DirectoryLoader(directory_path)
     # loader = WebBaseLoader(directory_path)
@@ -46,7 +46,7 @@ def create_vector(split_docs):
 
 
 def main():
-    documents = load_documents(DIR_PATH)
+    documents = load_documents(DIR_PATH, WEBSITES)
     split_docs = split_documents(documents)
     index = create_vector(split_docs)
     print("Ingestion complete!")

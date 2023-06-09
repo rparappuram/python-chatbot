@@ -13,6 +13,10 @@ from streamlit_extras.add_vertical_space import add_vertical_space
 from utils import *
 
 st.set_page_config(page_title="Integral AI Assistant")
+
+with open( "style.css" ) as css:
+    st.markdown( f'<style>{css.read()}</style>' , unsafe_allow_html= True)
+
 st.title("Integral AI Assistant")
 
 
@@ -90,8 +94,8 @@ with textcontainer:
 with response_container:
     if st.session_state["responses"]:
         for i in range(len(st.session_state["responses"])):
-            message(st.session_state["responses"][i], avatar_style="icons", seed="Felix",key=str(i))
+            message(st.session_state["responses"][i], key=str(i))
             if i < len(st.session_state["requests"]):
                 message(
-                    st.session_state["requests"][i], is_user=True, avatar_style="icons", seed="Aneka", key=str(i) + "_user"
+                    st.session_state["requests"][i], is_user=True, key=str(i) + "_user"
                 )
