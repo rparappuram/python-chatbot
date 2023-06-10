@@ -1,4 +1,4 @@
-import os
+import os, time
 from config import *
 from langchain.document_loaders import DirectoryLoader, WebBaseLoader, WebBaseLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -10,14 +10,14 @@ from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv())
 
 
-DIR_PATH = "docs/AIAssistent_Data"
+DIR_PATH = "AIAssistent_Data_clean"
 WEBSITES = "temp"
 
 
 # load documents from directory
 def load_documents(directory_path, websites):
     print("Loading documents...")
-    loader = DirectoryLoader(directory_path)
+    loader = DirectoryLoader(path=directory_path, show_progress=True, use_multithreading=True)
     # loader = WebBaseLoader(directory_path)
     documents = loader.load()
     return documents
@@ -46,10 +46,13 @@ def create_vector(split_docs):
 
 
 def main():
+    # time the ingestion process
+    start_time = time.time()
     documents = load_documents(DIR_PATH, WEBSITES)
     split_docs = split_documents(documents)
     index = create_vector(split_docs)
     print("Ingestion complete!")
+    print("Time taken: ", time.time() - start_time)
 
 
 if __name__ == "__main__":
