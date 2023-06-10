@@ -3,7 +3,7 @@ import pinecone
 
 # delete all namespaces except the ones in the list
 
-namespaces_to_keep = ["test-both-python3", ]
+namespaces_to_keep = ["test-both-python3", "google_drive1"]
 
 
 index = pinecone.Index(os.getenv("PINECONE_INDEX_NAME"))
