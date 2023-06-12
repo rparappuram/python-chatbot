@@ -43,7 +43,7 @@ def get_conversation_string():
 
 
 # get similar documents
-def get_similar_docs(query, k=5, score=False):
+def get_similar_docs(query, k=3, score=False):
     print("Getting similar documents...")
     if score:
         similar_docs = index.similarity_search_with_score(query, k=k, score=score)
