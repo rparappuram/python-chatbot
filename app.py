@@ -1,5 +1,5 @@
 from langchain.chat_models import ChatOpenAI
-from langchain.chains import ConversationChain
+from langchain.chains import ConversationChain,RetrievalQA
 from langchain.chains.conversation.memory import ConversationBufferWindowMemory
 from langchain.prompts import (
     SystemMessagePromptTemplate,
@@ -11,6 +11,15 @@ import streamlit as st
 from streamlit_chat import message
 from streamlit_extras.add_vertical_space import add_vertical_space
 from utils import *
+import logging
+import logging.handlers
+
+
+#Create and configure logger
+logging.basicConfig(filename='test.log',level=logging.INFO,format='%(message)s')
+logger = logging.getLogger()
+
+
 
 st.set_page_config(page_title="Integral AI Assistant")
 st.title("Integral AI Assistant")
@@ -24,6 +33,9 @@ if "requests" not in st.session_state:
 
 if "temp" not in st.session_state:
     st.session_state["temp"] = ""
+    
+
+
 
 llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0.2)
 
@@ -31,6 +43,10 @@ if "buffer_memory" not in st.session_state:
     st.session_state.buffer_memory = ConversationBufferWindowMemory(
         k=3, return_messages=True
     )
+
+
+
+
 
 
 system_msg_template = SystemMessagePromptTemplate.from_template(
@@ -55,7 +71,7 @@ prompt_template = ChatPromptTemplate.from_messages(
 )
 
 conversation = ConversationChain(
-    memory=st.session_state.buffer_memory, prompt=prompt_template, llm=llm, verbose=True
+    memory=st.session_state.buffer_memory, prompt=prompt_template, llm=llm, verbose=True, 
 )
 
 
@@ -87,6 +103,7 @@ with textcontainer:
             )
         st.session_state.requests.append(query)
         st.session_state.responses.append(response)
+        logging.info('QA: {}-{}'.format(query,response) )
 with response_container:
     if st.session_state["responses"]:
         for i in range(len(st.session_state["responses"])):

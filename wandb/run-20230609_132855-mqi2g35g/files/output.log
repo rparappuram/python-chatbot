@@ -1,0 +1,17 @@
+[34m[1mwandb[39m[22m: [33mWARNING[39m DEPRECATION: The `WandbCallbackHandler` will soon be deprecated in favor of the `WandbTracer`. Please update your code to use the `WandbTracer` instead.
+2023-06-09 13:28:58.500 Uncaught app exception
+Traceback (most recent call last):
+  File "/Users/gurpartapsingh/miniconda3/lib/python3.10/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 552, in _run_script
+    exec(code, module.__dict__)
+  File "/Users/gurpartapsingh/Desktop/Integral Summer 2023/python-chatbot/app.py", line 83, in <module>
+    wandb_callback.flush_tracker(llm, name="Integral ChatBot")
+  File "/Users/gurpartapsingh/miniconda3/lib/python3.10/site-packages/langchain/callbacks/wandb_callback.py", line 545, in flush_tracker
+    dataframe=self._create_session_analysis_df()
+  File "/Users/gurpartapsingh/miniconda3/lib/python3.10/site-packages/langchain/callbacks/wandb_callback.py", line 451, in _create_session_analysis_df
+    on_llm_start_records_df[["step", "prompts", "name"]]
+  File "/Users/gurpartapsingh/miniconda3/lib/python3.10/site-packages/pandas/core/frame.py", line 3813, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/Users/gurpartapsingh/miniconda3/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6070, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/Users/gurpartapsingh/miniconda3/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 6130, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")

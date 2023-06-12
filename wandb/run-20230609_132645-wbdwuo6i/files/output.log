@@ -1,0 +1,13 @@
+[34m[1mwandb[39m[22m: [33mWARNING[39m DEPRECATION: The `WandbCallbackHandler` will soon be deprecated in favor of the `WandbTracer`. Please update your code to use the `WandbTracer` instead.
+2023-06-09 13:26:48.114 Uncaught app exception
+Traceback (most recent call last):
+  File "/Users/gurpartapsingh/miniconda3/lib/python3.10/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 552, in _run_script
+    exec(code, module.__dict__)
+  File "/Users/gurpartapsingh/Desktop/Integral Summer 2023/python-chatbot/app.py", line 42, in <module>
+    wandb_callback = WandbCallbackHandler(
+  File "/Users/gurpartapsingh/miniconda3/lib/python3.10/site-packages/langchain/callbacks/wandb_callback.py", line 215, in __init__
+    self.nlp = spacy.load("en_core_web_sm")
+  File "/Users/gurpartapsingh/miniconda3/lib/python3.10/site-packages/spacy/__init__.py", line 54, in load
+    return util.load_model(
+  File "/Users/gurpartapsingh/miniconda3/lib/python3.10/site-packages/spacy/util.py", line 449, in load_model
+    raise IOError(Errors.E050.format(name=name))

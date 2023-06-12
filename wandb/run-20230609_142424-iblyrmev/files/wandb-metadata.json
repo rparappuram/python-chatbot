@@ -1,0 +1,34 @@
+{
+    "os": "macOS-12.5-arm64-arm-64bit",
+    "python": "3.10.8",
+    "heartbeatAt": "2023-06-09T18:24:25.066168",
+    "startedAt": "2023-06-09T18:24:24.582690",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/gurpartapsingh/Desktop/Integral Summer 2023/python-chatbot/app.py",
+    "codePath": "app.py",
+    "git": {
+        "remote": "https://github.com/rparappuram/python-chatbot.git",
+        "commit": "068e8edf0ab032cfac0ad24f110f627308906d2e"
+    },
+    "email": "gpsss246@gmail.com",
+    "root": "/Users/gurpartapsingh/Desktop/Integral Summer 2023/python-chatbot",
+    "host": "GurpartsMBP2290.fios-router.home",
+    "username": "gurpartapsingh",
+    "executable": "/Users/gurpartapsingh/miniconda3/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "total": 460.4317207336426,
+        "used": 21.803680419921875
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}
